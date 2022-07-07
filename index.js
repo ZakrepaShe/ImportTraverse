@@ -4,13 +4,19 @@ const fs = require('fs');
 const path = require('path');
 
 //const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\exportable\\components.ts'; //too much memory
-const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js';
+// const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js';
+const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\utils\\slateAddOnLogs.spec.js';
+const Root = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app';
+const modulesRoot = Root + '\\node_modules';
+
+const relativeOnly = true;
 
 const filterPaths = [
   'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common.js',
   'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\CreateComponent\\index.js',
   'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\prop-types.js',
-  'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\get.js'
+  'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\get.js',
+  'lodash-es'
 ]
 
 const cachedNodes = {};
@@ -64,7 +70,10 @@ function indexFixer(pathToItem) {
       }
     }
   }
+}
 
+function outputPathFormatter(filePath) {
+  return filePath.replace(Root, '').replace('\\node_modules\\', '')
 }
 
 
@@ -73,14 +82,31 @@ function traverseFile(ast, callback) {
   traverse.default(ast, {
     enter(path) {
       if (path.isImportDeclaration()) {
+        let result = '';
         if (path.node.source.value[0] === '.') {
-          const result = callback(path.node.source.value);
-          if (result) imports.push(result);
+          result = callback(path.node.source.value, 'relative');
+        } else if (!relativeOnly) {
+          if(indexFixer(modulesRoot+ '/' +path.node.source.value)) {
+            result = callback(path.node.source.value, 'moduleFile');
+          } else {
+            result = callback(path.node.source.value, 'module');
+          }
         }
+        if (result) imports.push(result);
       }
     },
   });
   return imports;
+}
+
+function processNodeModule(modulePath) {
+  const packagePath = modulePath + '\\package.json'
+  const stat = fs.statSync(packagePath);
+  if(stat.isFile()) {
+    const packageData = fs.readFileSync(packagePath, 'utf-8');
+    const parsedPackage = JSON.parse(packageData)
+    return path.resolve(modulePath, parsedPackage.module || parsedPackage.main)
+  }
 }
 
 
@@ -91,24 +117,30 @@ function processFile(filePath) {
     name: `No file at ${filePath}`,
   };
 
-  if (filterPaths.includes(checkedPath)) {
+  if (filterPaths.some((filteredPath) => checkedPath.includes(filteredPath))) {
     return {
-      name: path.basename(filePath) + ' Short',
+      name: outputPathFormatter(filePath) + ' Short ',
     }
   }
 
   const ast = getAST(checkedPath);
 
-  const children = traverseFile(ast, (relativeImport) => {
-      if(!cachedNodes[relativeImport]) {
-        cachedNodes[relativeImport] = processFile(path.resolve(path.dirname(checkedPath), relativeImport))
+  const children = traverseFile(ast, (importPath, importType) => {
+      if(!cachedNodes[importPath]) {
+        cachedNodes[importPath] = processFile(
+          importType === 'relative'
+          ? path.resolve(path.dirname(checkedPath), importPath)
+          : importType === 'module'
+            ? processNodeModule(path.resolve(modulesRoot, importPath))
+            : path.resolve(modulesRoot, importPath)
+        )
       }
-      return cachedNodes[relativeImport];
+      return cachedNodes[importPath];
     },
   );
 
   return {
-    name: path.basename(filePath),
+    name: outputPathFormatter(filePath),
     ...children.length > 0 && {children},
   };
 }
