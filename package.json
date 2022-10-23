@@ -1,7 +1,8 @@
 {
   "name": "ImportTraverse",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "importsCollector.js",
+  "type": "module",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.14.0",
