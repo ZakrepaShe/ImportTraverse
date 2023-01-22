@@ -2,10 +2,20 @@ import parser from '@babel/core';
 import traverse from '@babel/traverse';
 import fs  from 'fs';
 import path from 'path';
-import { extrudeSubtrees } from './subtreesExtruder.js';
+import {
+  cleanupChains,
+  extrudeSubtrees,
+  getCleanedChainsNumber,
+} from './subtreesExtruder.js';
+import { JsonStreamStringify } from 'json-stream-stringify';
+import { flattenTree } from './flattenTree.js';
+import  archiver from 'archiver';
+import { Readable } from 'stream';
+import ee from 'streamee';
 
-//const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\exportable\\components.ts'; //too much memory
-const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js'; // Recursive!
+// const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\exportable\\components.ts'; //too much memory, use flattenResult
+// const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js'; // Recursive!
+const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\conditionValidation.spec.ts'; // Enormous size!
 // const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\utils\\slateAddOnLogs.spec.js';
 const Root = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app';
 const modulesRoot = Root + '\\node_modules';
@@ -13,6 +23,10 @@ const modulesRoot = Root + '\\node_modules';
 const relativeOnly = true;
 const resolveRecursion = true;
 const extrudeReusedSubtrees = true;
+const flattenResult = true;
+const maxDeep = 20000;
+
+const logFilePaths = false
 
 const filterPaths = [
   'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common.js',
@@ -39,14 +53,14 @@ function indexFixer(pathToItem) {
     const stat = fs.statSync(pathToItem);
 
     if (stat.isFile()) {
-      console.log('filePath', pathToItem);
+      logFilePaths && console.log('filePath', pathToItem);
       return pathToItem;
     } else if (stat.isDirectory()) {
       try {
         const pathWithIndexJs = pathToItem + '\\index.js';
 
         fs.statSync(pathWithIndexJs);
-        console.log('filePath IndexJs', pathWithIndexJs);
+        logFilePaths && console.log('filePath IndexJs', pathWithIndexJs);
 
         return pathWithIndexJs;
       } catch (e) {
@@ -54,14 +68,14 @@ function indexFixer(pathToItem) {
           const pathWithIndexTS = pathToItem + '\\index.ts';
 
           fs.statSync(pathWithIndexTS);
-          console.log('filePath IndexTS', pathWithIndexTS);
+          logFilePaths && console.log('filePath IndexTS', pathWithIndexTS);
 
           return pathWithIndexTS;
         } catch (e) {
           const pathWithIndexTSX = pathToItem + '\\index.tsx';
           try {
             fs.statSync(pathWithIndexTSX);
-            console.log('filePath IndexTS', pathWithIndexTSX);
+            logFilePaths && console.log('filePath IndexTS', pathWithIndexTSX);
 
             return pathWithIndexTSX;
           } catch (e) {
@@ -77,7 +91,7 @@ function indexFixer(pathToItem) {
       const stat = fs.statSync(pathWithJs);
 
       if (stat.isFile()) {
-        console.log('filePath js', pathWithJs);
+        logFilePaths && console.log('filePath js', pathWithJs);
 
         return pathWithJs;
       }
@@ -85,13 +99,23 @@ function indexFixer(pathToItem) {
       try {
         const pathWithTs = pathToItem + '.ts';
         const stat = fs.statSync(pathWithTs);
-        console.log('filePath ts', pathWithTs);
+        logFilePaths && console.log('filePath ts', pathWithTs);
 
         if (stat.isFile()) {
           return pathWithTs;
         }
       } catch (e) {
-        return '';
+        try {
+          const pathWithTsx = pathToItem + '.tsx';
+          const stat = fs.statSync(pathWithTsx);
+          logFilePaths && console.log('filePath tsx', pathWithTsx);
+
+          if (stat.isFile()) {
+            return pathWithTsx;
+          }
+        } catch (e) {
+          return '';
+        }
       }
     }
   }
@@ -136,22 +160,38 @@ function processNodeModule(modulePath) {
 
 
 function processFile(filePath, chain = []) {
+  if (chain.length > maxDeep) {
+    const outPath = outputPathFormatter(filePath);
+    console.log(`${outPath} D`)
+    return {
+      name: `${outPath} D`,
+      chain,
+    };
+  }
+
   const checkedPath = indexFixer(filePath);
-  if (!checkedPath) return {
-    name: `No file at ${filePath}`,
-    chain,
-  };
+  if (!checkedPath) {
+    const outPath = outputPathFormatter(filePath);
+    console.log(`No file at ${outPath}`)
+    return {
+      name: `${outPath} N`,
+      chain,
+    };
+  }
 
   if (resolveRecursion && chain.some((pathInChain) => pathInChain === filePath)) {
+    const outPath = outputPathFormatter(filePath);
+    console.log('filePath' + outPath + ' Recursion!')
     return {
-      name: outputPathFormatter(filePath) + ' Recursion! ',
+      name: `${outPath} R`,
       chain,
     };
   }
 
   if (filterPaths.some((filteredPath) => checkedPath.includes(filteredPath))) {
+    console.log('filePath' + outputPathFormatter(filePath) + ' Short')
     return {
-      name: outputPathFormatter(filePath) + ' Short ',
+      name: outputPathFormatter(filePath) + ' S',
       chain,
     };
   }
@@ -181,12 +221,37 @@ function processFile(filePath, chain = []) {
 }
 
 
-const tree = processFile(filePath);
+let tree = processFile(filePath);
 
 if(extrudeReusedSubtrees) {
-  extrudeSubtrees(tree)
+  extrudeSubtrees(tree);
 }
 
-fs.writeFileSync('tree.js', 'export default ' + JSON.stringify(tree, null, 2), 'utf-8');
+cleanupChains(tree);
+getCleanedChainsNumber();
+
+if (flattenResult) {
+  tree = flattenTree(tree);
+}
 
 
+// Stream to file
+fs.writeFileSync('tree.js', 'export default ', 'utf-8');
+const writeStream = fs.createWriteStream('tree.js', { flags: 'a+' });
+const stringifyStream = new JsonStreamStringify(tree, null, 2, false);
+
+stringifyStream.pipe(writeStream)
+
+// Stream to ZIP
+// const output = fs.createWriteStream('example.zip');
+// const readableStream = Readable.from('export default ');
+// const stringifyStream = new JsonStreamStringify(tree, null, 2, false);
+// const archive = archiver('zip', {
+//   zlib: { level: 6 } // Sets the compression level.
+// });
+//
+// const stream1AndThenStream2 = ee.concatenate([readableStream, stringifyStream]);
+//
+// archive.pipe(output);
+// archive.append(stream1AndThenStream2, { name: 'tree.js' });
+// archive.finalize();

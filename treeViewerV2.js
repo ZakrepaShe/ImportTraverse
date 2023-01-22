@@ -1,4 +1,5 @@
-import treeJson from './tree.js';
+import treeJsonPacked from './tree.js';
+import { reflattenTree } from './flattenTree.js';
 
 const sample = {
   name: 'root',
@@ -95,11 +96,12 @@ function getElementWidthByView(tree) {
 }
 
 ctx.font = '32px courier';
+const treeJson = reflattenTree(treeJsonPacked);
 prepareTree(treeJson);
-treeJson.subTrees.forEach(subtree => {
+treeJson?.subTrees?.forEach(subtree => {
   prepareTree(subtree, 0, maxY + 100)
 })
-console.log(treeJson);
+// console.log(treeJson);
 
 
 function renderTree(tree) {
@@ -107,7 +109,7 @@ function renderTree(tree) {
     ? drawRect
     : fillRect
 
-  drawFunc(tree.x, tree.y + parentPadding, tree.width, elementHeight - parentPadding * 2);
+  drawFunc(tree.x, tree.y + parentPadding, tree.width, elementHeight - parentPadding * 2, tree.name.match(/.*E$/) ? '#111899' : '#991111');
 
   if (currentView === 'outlined' || tree.nameWidth < tree.width) {
     drawText(tree.shortName, tree.x + tree.width / 2 - tree.nameWidth / 2, tree.y + elementHeight - 15);
@@ -167,7 +169,7 @@ function draw() {
   ctx.translate(-origin.x, -origin.y);
 
   renderTree(treeJson);
-  treeJson.subTrees.forEach(subtree => {
+  treeJson?.subTrees?.forEach(subtree => {
     renderTree(subtree)
   });
 
@@ -178,14 +180,14 @@ function draw() {
 }
 
 
-function drawRect(x, y, width, height) {
+function drawRect(x, y, width, height, color = '#991111') {
   ctx.lineWidth = 1;
-  ctx.strokeStyle = '#991111';
+  ctx.strokeStyle = color;
   ctx.strokeRect(x, y, width, height);
 }
 
-function fillRect(x, y, width, height) {
-  ctx.fillStyle = '#991111';
+function fillRect(x, y, width, height, color = '#991111') {
+  ctx.fillStyle = color;
   ctx.fillRect(x, y, width, height);
 }
 

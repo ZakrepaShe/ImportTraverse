@@ -1,9022 +1,5953 @@
 export default {
-  "name": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-  "chain": [],
-  "children": [
-    {
-      "name": "\\src\\shared\\services\\localization E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\components\\Form\\layout E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\components\\If E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\services\\handleNotifications E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\utils\\common\\get E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\constants\\formBuilder E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\utils\\validation\\ValidationService",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\constants\\circs",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\circsDecorator"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\addOnStatuses",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\errorMessages",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\formBuilder E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\conditions E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\regex",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\common\\get E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\mesurment Recursion! ",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\helpers E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\fields E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\formBuilderConverter E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\finalFormFields",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\mappers E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\services\\localization E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\mapping",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\funcs E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\validation",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\matching",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\addOnName",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\string E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\conditionsChecker E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\phoneInput",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\validation\\composeValidators",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\selectMenu E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\datePicker E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ],
-          "children": null
-        }
-      ]
-    },
-    {
-      "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Tooltip",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ]
-    },
-    {
-      "name": "\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\components\\Form\\layout E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\hooks\\useTooltip",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\hooks\\useForceUpdate",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\hooks\\useTooltip"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\hooks\\useRefWithCallback",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\hooks\\useTooltip"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\types\\utils\\Nullable",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\services\\localization E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\FieldError\\useFieldErrorType",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\FieldError\\FieldErrorProvider E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\useFieldErrorType"
-              ],
-              "children": null
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\FieldError\\components\\FieldErrorTooltipDecorator",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\FieldError\\components\\FieldErrorTooltip",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorTooltipDecorator"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\string E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorTooltipDecorator",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorTooltip"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\FieldError\\constants",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorTooltipDecorator",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorTooltip"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\FieldError\\useFieldError",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorTooltipDecorator"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\FieldError\\FieldErrorProvider E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\useFieldErrorType"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\hooks\\usePrevious",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorTooltipDecorator",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\useFieldError"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\common\\common E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent"
-          ],
-          "children": null
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\utils\\common\\common E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\PhoneInput E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\components\\FieldValue",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\components\\FieldValue\\FieldValue",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\services\\localization E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\constants\\prop-types Short ",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\components\\FieldValue\\FieldValueButtonAdd E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\components\\FieldValue\\FieldValueButton E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\components\\FieldValue\\FieldValueButtonBody E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\components\\FieldValue\\FieldValueButtonText E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\constants\\dataTags",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\components\\FieldValue\\FieldValueButton E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\components\\FieldValue\\FieldValueButtonAdd E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\components\\FieldValue\\FieldValueButtonBody E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\components\\FieldValue\\FieldValueButtonText E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-              ],
-              "children": null
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\ui",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\hooks\\useGlobalEvent",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\components\\Form\\layout E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\PhoneInput E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\dataValue",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\constants\\regex",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\services\\localization E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\constants\\placeholders",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\constants\\formBuilder E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-              ],
-              "children": null
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "hashedTree": {
+    "1": [
+      2,
+      3
+    ],
+    "3": [
+      4,
+      5,
+      6,
+      7,
+      2,
+      8,
+      9,
+      10,
+      11,
+      12,
+      7,
+      16
+    ],
+    "12": [
+      4,
+      2,
+      8,
+      5,
+      13,
+      10,
+      6,
+      16,
+      40,
+      32,
+      33,
+      41,
+      26,
+      42
+    ],
+    "13": [
+      14,
+      36,
+      37,
+      38,
+      30,
+      34,
+      39
+    ],
+    "14": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      27,
+      28,
+      23,
+      26,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "21": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "37": [
+      31,
+      17,
+      23,
+      26,
+      29,
+      28
+    ],
+    "43": [
+      5,
+      23,
+      17,
+      10,
+      8
+    ],
+    "44": [
+      45
+    ],
+    "46": [
+      4,
+      47,
+      45,
+      48
+    ],
+    "49": [
+      50,
+      51,
+      52,
+      53,
+      2,
+      47,
+      4,
+      6,
+      54,
+      55,
+      56,
+      5,
+      57,
+      16,
+      66,
+      67,
+      68,
+      69,
+      70,
+      63,
+      11,
+      71,
+      9,
+      72,
+      23
+    ],
+    "56": [
+      53,
+      57,
+      6,
+      4,
+      155,
+      55,
+      48
+    ],
+    "58": [
+      4,
+      53,
+      59,
+      60,
+      61,
+      62,
+      47,
+      63,
+      64,
+      65,
+      6
+    ],
+    "62": [
+      61
+    ],
+    "65": [
+      4
+    ],
+    "72": [
+      73
+    ],
+    "74": [
+      75,
+      4,
+      57,
+      63,
+      60,
+      52,
+      6,
+      45
+    ],
+    "75": [
+      53
+    ],
+    "76": [
+      77,
+      8,
+      4,
+      5,
+      6
+    ],
+    "78": [
+      79,
+      81,
+      82
+    ],
+    "79": [
+      80
+    ],
+    "81": [
+      80
+    ],
+    "82": [
+      80
+    ],
+    "83": [
+      45
+    ],
+    "84": [
+      57
+    ],
+    "85": [
+      31
+    ],
+    "86": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "87": [
+      80
+    ],
+    "88": [
+      80
+    ],
+    "89": [
+      80
+    ],
+    "90": [
+      80
+    ],
+    "91": [
+      80
+    ],
+    "92": [
+      80
+    ],
+    "93": [
+      80
+    ],
+    "94": [
+      80
+    ],
+    "95": [
+      80
+    ],
+    "96": [
+      80
+    ],
+    "97": [
+      80
+    ],
+    "98": [
+      80
+    ],
+    "99": [
+      80
+    ],
+    "100": [
+      80
+    ],
+    "101": [
+      80
+    ],
+    "102": [
+      80
+    ],
+    "103": [
+      80
+    ],
+    "104": [
+      80
+    ],
+    "105": [
+      80
+    ],
+    "106": [
+      80
+    ],
+    "107": [
+      80
+    ],
+    "108": [
+      80
+    ],
+    "109": [
+      80
+    ],
+    "110": [
+      31,
+      10
+    ],
+    "111": [
+      17,
+      112
+    ],
+    "113": [
+      80
+    ],
+    "114": [
+      80
+    ],
+    "115": [
+      23,
+      28,
+      17
+    ],
+    "116": [
+      16,
+      18,
+      20,
+      31,
+      10
+    ],
+    "117": [
+      17,
+      23,
+      6,
+      2,
+      60,
+      16
+    ],
+    "118": [
+      15,
+      119,
+      16,
+      120,
+      18,
+      23,
+      10,
+      31,
+      121,
+      125
+    ],
+    "120": [
+      121,
+      22,
+      119,
+      23,
+      31,
+      18,
+      215,
+      124
+    ],
+    "122": [
+      16,
+      67,
+      10,
+      123
+    ],
+    "125": [
+      20,
+      124,
+      16,
+      126,
+      128,
+      10
+    ],
+    "126": [
+      127
+    ],
+    "128": [
+      129,
+      131
+    ],
+    "129": [
+      63,
+      130
+    ],
+    "131": [
+      127,
+      132
+    ],
+    "133": [
+      134,
+      136,
+      138,
+      140,
+      141,
+      142,
+      154,
+      158,
+      165,
+      166
+    ],
+    "134": [
+      135
+    ],
+    "136": [
+      135,
+      137,
+      53,
+      132
+    ],
+    "138": [
+      139
+    ],
+    "142": [
+      143,
+      67,
+      54,
+      144,
+      145,
+      6,
+      16,
+      10,
+      57,
+      4,
+      146,
+      53,
+      132,
+      45,
+      147,
+      150
+    ],
+    "144": [
+      4,
+      6,
+      48
+    ],
+    "147": [
+      53,
+      148,
+      149,
+      45
+    ],
+    "150": [
+      151,
+      152,
+      153,
+      149,
+      45
+    ],
+    "154": [
+      4,
+      56,
+      156,
+      157
+    ],
+    "156": [
+      31
+    ],
+    "158": [
+      31,
+      143,
+      54,
+      16,
+      159,
+      53,
+      6,
+      164,
+      72
+    ],
+    "159": [
+      67,
+      160,
+      161,
+      163
+    ],
+    "161": [
+      57,
+      162,
+      4,
+      16
+    ],
+    "165": [
+      143
+    ],
+    "166": [
+      6,
+      167
+    ],
+    "168": [
+      169,
+      35
+    ],
+    "169": [
+      170,
+      173,
+      176,
+      182,
+      186,
+      187,
+      188,
+      203,
+      204,
+      208
+    ],
+    "170": [
+      143,
+      171,
+      16,
+      172,
+      31,
+      10,
+      20,
+      7,
+      68,
+      6
+    ],
+    "173": [
+      174
+    ],
+    "174": [
+      175
+    ],
+    "176": [
+      177,
+      30
+    ],
+    "177": [
+      16,
+      178,
+      179,
+      180,
+      181
+    ],
+    "179": [
+      16
+    ],
+    "182": [
+      183
+    ],
+    "183": [
+      184,
+      30,
+      185,
+      31,
+      143
+    ],
+    "188": [
+      189,
+      190,
+      191,
+      57,
+      187,
+      185,
+      30,
+      31,
+      67,
+      202,
+      10
+    ],
+    "191": [
+      192,
+      53,
+      193,
+      194,
+      195,
+      45,
+      201
+    ],
+    "194": [
+      195,
+      196
+    ],
+    "196": [
+      197,
+      198,
+      199,
+      200
+    ],
+    "197": [
+      80
+    ],
+    "198": [
+      80
+    ],
+    "199": [
+      80
+    ],
+    "200": [
+      80
+    ],
+    "204": [
+      19,
+      205,
+      20,
+      206,
+      16,
+      207
+    ],
+    "208": [
+      209,
+      210,
+      211,
+      205,
+      30,
+      190,
+      185
+    ],
+    "211": [
+      212,
+      6,
+      164,
+      31,
+      202,
+      4,
+      10,
+      35
+    ],
+    "212": [
+      213,
+      31,
+      214
+    ],
+    "213": [
+      214,
+      16,
+      215
+    ],
+    "216": [
+      30,
+      217,
+      190,
+      205
+    ],
+    "217": [
+      169,
+      35
+    ],
+    "218": [
+      127
+    ],
+    "219": [
+      220,
+      205
+    ],
+    "220": [
+      19,
+      17,
+      5,
+      53,
+      221,
+      228,
+      39,
+      237,
+      35,
+      30,
+      34,
+      238,
+      20,
+      31,
+      243,
+      23
+    ],
+    "221": [
+      222
+    ],
+    "222": [
+      23,
+      192,
+      132,
+      6,
+      223,
+      224,
+      225,
+      205,
+      34,
+      22,
+      20,
+      24,
+      25,
+      172,
+      10,
+      226,
+      45,
+      227,
+      149,
+      201,
+      53
+    ],
+    "225": [
+      121,
+      16
+    ],
+    "228": [
+      192,
+      30,
+      6,
+      229,
+      230,
+      53,
+      10,
+      120,
+      121,
+      16,
+      34,
+      202,
+      119,
+      153,
+      236,
+      233,
+      45,
+      223
+    ],
+    "230": [
+      178,
+      231,
+      16,
+      17,
+      15,
+      234
+    ],
+    "231": [
+      232,
+      10,
+      25,
+      24,
+      234,
+      235,
+      233
+    ],
+    "232": [
+      17,
+      233
+    ],
+    "238": [
+      239,
+      205,
+      30,
+      34,
+      233
+    ],
+    "239": [
+      17,
+      23,
+      19,
+      240,
+      28,
+      6,
+      192,
+      229,
+      223,
+      26,
+      121,
+      202,
+      184,
+      10,
+      45,
+      193,
+      153,
+      226,
+      224,
+      16,
+      236
+    ],
+    "240": [
+      31,
+      4,
+      241,
+      242,
+      31
+    ],
+    "241": [
+      215,
+      16,
+      242,
+      31
+    ],
+    "243": [
+      80
+    ],
+    "244": [
+      245
+    ],
+    "246": [
+      247,
+      248,
+      249
+    ],
+    "248": [
+      247,
+      10
+    ],
+    "249": [
+      247
+    ],
+    "250": [
+      77,
+      5
+    ],
+    "251": [
+      252
+    ],
+    "253": [
+      201,
+      254,
+      16,
+      4,
+      6,
+      17,
+      255,
+      47,
+      236,
+      256,
+      167,
+      153,
+      258,
+      261
+    ],
+    "256": [
+      257
+    ],
+    "258": [
+      259,
+      45,
+      153,
+      260,
+      73,
+      53
+    ],
+    "262": [
+      263,
+      264,
+      77,
+      265,
+      271,
+      112
+    ],
+    "264": [
+      153,
+      45
+    ],
+    "265": [
+      266,
+      269
+    ],
+    "266": [
+      4,
+      5,
+      77,
+      11,
+      267,
+      47,
+      268
+    ],
+    "268": [
+      77,
+      60
+    ],
+    "269": [
+      50,
+      267,
+      270,
+      47
+    ],
+    "270": [
+      8
+    ],
+    "272": [
+      48,
+      273,
+      4,
+      67,
+      66
+    ],
+    "274": [
+      4,
+      63,
+      47,
+      252,
+      53,
+      275,
+      60,
+      68,
+      258,
+      45
+    ],
+    "276": [
+      4,
+      153
+    ],
+    "277": [
+      59,
+      53,
+      57,
+      278,
+      279,
+      280
+    ],
+    "278": [
+      4
+    ],
+    "279": [
+      4,
+      66,
+      64,
+      54
+    ],
+    "280": [
+      4,
+      60,
+      64
+    ],
+    "281": [
+      60,
+      45
+    ],
+    "282": [
+      273,
+      47,
+      60,
+      63,
+      4,
+      55,
+      59,
+      6,
+      54,
+      53,
+      275,
+      283
+    ],
+    "284": [
+      285,
+      6
+    ],
+    "285": [
+      16,
+      45
+    ],
+    "286": [
+      45,
+      167
+    ],
+    "287": [
+      288
+    ],
+    "289": [
+      290,
+      291,
+      292,
+      293,
+      294,
+      295
+    ],
+    "290": [
+      80
+    ],
+    "291": [
+      80
+    ],
+    "292": [
+      80
+    ],
+    "293": [
+      80
+    ],
+    "294": [
+      80
+    ],
+    "295": [
+      80
+    ],
+    "296": [
+      139,
+      163
+    ],
+    "297": [
+      123,
+      298
+    ],
+    "298": [
+      45
+    ],
+    "299": [
+      31,
+      267,
+      164,
+      61,
+      5
+    ],
+    "300": [
+      301,
+      302
+    ],
+    "301": [
+      6
+    ],
+    "302": [
+      31
+    ],
+    "303": [
+      148,
+      153
+    ],
+    "304": [
+      139,
+      121,
+      18,
+      305,
+      201,
+      10,
+      31
+    ],
+    "305": [
+      306,
+      314,
+      39,
+      30,
+      153,
+      236
+    ],
+    "306": [
+      45,
+      167,
+      307,
+      16,
+      308,
+      309,
+      63,
+      311,
+      163,
+      157,
+      42,
+      201,
+      312,
+      53,
+      152,
+      313,
+      149,
+      6
+    ],
+    "308": [
+      309,
+      310
+    ],
+    "311": [
+      163
+    ],
+    "315": [
+      316
+    ],
+    "316": [
+      317,
+      31,
+      319,
+      18
+    ],
+    "317": [
+      318
+    ],
+    "319": [
+      318,
+      31,
+      20,
+      6,
+      30
+    ],
+    "320": [
+      20,
+      18,
+      53,
+      215,
+      172,
+      10,
+      321,
+      322,
+      323
+    ],
+    "323": [
+      324,
+      163,
+      193,
+      322,
+      20,
+      321,
+      330
+    ],
+    "324": [
+      325,
+      327,
+      326,
+      328,
+      329
+    ],
+    "325": [
+      16,
+      31,
+      326,
+      327,
+      328,
+      329,
+      307
+    ],
+    "330": [
+      47,
+      16,
+      201,
+      53
+    ],
+    "331": [
+      7,
+      57,
+      332,
+      6,
+      4,
+      53
+    ],
+    "332": [
+      4,
+      333,
+      57,
+      63,
+      334,
+      10,
+      335,
+      336,
+      53,
+      16,
+      450,
+      6,
+      51,
+      461,
+      648,
+      344,
+      649,
+      313,
+      650,
+      618,
+      469,
+      153,
+      651,
+      652,
+      653,
+      654,
+      257,
+      337,
+      45,
+      338,
+      634
+    ],
+    "336": [
+      53,
+      4,
+      263,
+      337,
+      313,
+      338,
+      339,
+      640,
+      634,
+      647,
+      16,
+      48
+    ],
+    "339": [
+      340,
+      341,
+      342,
+      344,
+      314,
+      359,
+      637,
+      151,
+      638,
+      369,
+      639,
+      634
+    ],
+    "342": [
+      20,
+      343,
+      16,
+      344,
+      345,
+      346,
+      347,
+      636
+    ],
+    "345": [
+      344
+    ],
+    "347": [
+      348,
+      349,
+      350,
+      223,
+      42,
+      39,
+      247,
+      351,
+      553,
+      632,
+      457,
+      6,
+      164,
+      633,
+      152,
+      620,
+      132,
+      634,
+      45,
+      53,
+      631,
+      346,
+      635,
+      386
+    ],
+    "351": [
+      352,
+      353,
+      605,
+      349,
+      416,
+      590,
+      53,
+      275,
+      132,
+      55,
+      553,
+      607,
+      67,
+      190,
+      608,
+      348,
+      164,
+      6,
+      612,
+      618,
+      153,
+      619,
+      313,
+      602,
+      620,
+      621,
+      631,
+      45
+    ],
+    "353": [
+      4,
+      354,
+      590,
+      181,
+      53
+    ],
+    "354": [
+      355,
+      223,
+      577,
+      601,
+      55,
+      181,
+      31,
+      7
+    ],
+    "355": [
+      53,
+      356,
+      7,
+      4,
+      63,
+      6,
+      9,
+      16,
+      273,
+      596,
+      597,
+      598,
+      55,
+      180,
+      599,
+      68,
+      500,
+      7,
+      600,
+      23
+    ],
+    "356": [
+      357,
+      206,
+      368,
+      171,
+      379,
+      381,
+      384,
+      175,
+      413,
+      36,
+      470,
+      186,
+      475,
+      477,
+      482,
+      498,
+      532,
+      544,
+      545,
+      551,
+      564,
+      575,
+      579,
+      580
+    ],
+    "357": [
+      358
+    ],
+    "358": [
+      6,
+      5,
+      359,
+      360,
+      361,
+      53,
+      31,
+      18,
+      362,
+      205,
+      363,
+      366,
+      30,
+      34,
+      255,
+      16,
+      4,
+      7,
+      367,
+      273,
+      163,
+      172,
+      10,
+      35,
+      365
+    ],
+    "363": [
+      5,
+      31,
+      361,
+      18,
+      53,
+      7,
+      364,
+      163,
+      237,
+      365
+    ],
+    "368": [
+      205,
+      30,
+      190,
+      369,
+      370,
+      38,
+      378,
+      39,
+      34
+    ],
+    "370": [
+      6,
+      371,
+      16,
+      375,
+      160,
+      4,
+      172,
+      10,
+      35,
+      367
+    ],
+    "371": [
+      372,
+      374
+    ],
+    "372": [
+      20,
+      373,
+      16,
+      10
+    ],
+    "374": [
+      364
+    ],
+    "375": [
+      376,
+      378
+    ],
+    "376": [
+      377,
+      4
+    ],
+    "379": [
+      380,
+      205
+    ],
+    "381": [
+      382,
+      205
+    ],
+    "382": [
+      383,
+      223,
+      35,
+      31
+    ],
+    "384": [
+      385,
+      387
+    ],
+    "385": [
+      386
+    ],
+    "387": [
+      254,
+      388,
+      31,
+      209,
+      389,
+      391,
+      53,
+      395,
+      398,
+      401,
+      205,
+      405,
+      380,
+      237,
+      61,
+      409
+    ],
+    "389": [
+      390
+    ],
+    "390": [
+      10
+    ],
+    "391": [
+      30,
+      205,
+      209,
+      190,
+      392
+    ],
+    "392": [
+      393,
+      35
+    ],
+    "393": [
+      394
+    ],
+    "394": [
+      186,
+      181,
+      172,
+      67,
+      30,
+      34,
+      10
+    ],
+    "395": [
+      396,
+      209,
+      210,
+      359,
+      30,
+      205
+    ],
+    "396": [
+      31,
+      360,
+      361,
+      397
+    ],
+    "398": [
+      30,
+      34,
+      209,
+      205,
+      399
+    ],
+    "399": [
+      360,
+      31,
+      400,
+      6,
+      349,
+      255,
+      16,
+      4,
+      53,
+      172,
+      132,
+      127,
+      10
+    ],
+    "401": [
+      402
+    ],
+    "402": [
+      205,
+      30,
+      190,
+      403,
+      209,
+      34,
+      172,
+      20,
+      35
+    ],
+    "403": [
+      404
+    ],
+    "404": [
+      16,
+      4,
+      31,
+      10
+    ],
+    "405": [
+      209,
+      205,
+      406,
+      30,
+      34,
+      190
+    ],
+    "406": [
+      202,
+      139,
+      31,
+      16,
+      6,
+      42,
+      193,
+      18,
+      407,
+      408,
+      181,
+      307,
+      63,
+      10,
+      35
+    ],
+    "407": [
+      16
+    ],
+    "408": [
+      31
+    ],
+    "409": [
+      410,
+      205,
+      412,
+      34,
+      209,
+      190,
+      30
+    ],
+    "410": [
+      20,
+      45,
+      163,
+      195,
+      16,
+      411,
+      237,
+      153
+    ],
+    "413": [
+      205,
+      414,
+      369,
+      443,
+      4,
+      34,
+      30,
+      444,
+      447,
+      451,
+      39,
+      38,
+      462,
+      466,
+      467
+    ],
+    "414": [
+      4,
+      16,
+      160,
+      415,
+      52,
+      416,
+      247,
+      63,
+      417,
+      418,
+      7,
+      10,
+      31,
+      172,
+      127,
+      419,
+      6,
+      442,
+      143
+    ],
+    "419": [
+      420,
+      18,
+      373,
+      436,
+      45,
+      437,
+      215,
+      438,
+      440,
+      20,
+      61,
+      417,
+      307,
+      10,
+      16,
+      124,
+      112
+    ],
+    "420": [
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435
+    ],
+    "421": [
+      80
+    ],
+    "422": [
+      80
+    ],
+    "423": [
+      22
+    ],
+    "424": [
+      80
+    ],
+    "425": [
+      80
+    ],
+    "426": [
+      80
+    ],
+    "427": [
+      53,
+      51,
+      16,
+      163,
+      10
+    ],
+    "428": [
+      80
+    ],
+    "429": [
+      80
+    ],
+    "430": [
+      80
+    ],
+    "435": [
+      307,
+      431,
+      432,
+      433,
+      434,
+      215,
+      16
+    ],
+    "437": [
+      215,
+      16,
+      417,
+      307,
+      10,
+      61,
+      112
+    ],
+    "438": [
+      439,
+      307
+    ],
+    "440": [
+      15,
+      31,
+      10,
+      441,
+      16
+    ],
+    "442": [
+      16,
+      416
+    ],
+    "444": [
+      445,
+      153,
+      4,
+      446,
+      377
+    ],
+    "447": [
+      137,
+      448,
+      449,
+      415,
+      152,
+      450,
+      38,
+      245,
+      153
+    ],
+    "451": [
+      449,
+      448,
+      415,
+      16,
+      452,
+      418,
+      453,
+      454,
+      137,
+      456,
+      457,
+      7,
+      458,
+      4,
+      152,
+      245,
+      459,
+      61,
+      460,
+      38,
+      153,
+      461,
+      45
+    ],
+    "454": [
+      455
+    ],
+    "458": [
+      415
+    ],
+    "460": [
+      16
+    ],
+    "462": [
+      415,
+      463,
+      359,
+      245
+    ],
+    "463": [
+      464,
+      465
+    ],
+    "466": [
+      467,
+      436,
+      153,
+      4,
+      468,
+      446,
+      469
+    ],
+    "470": [
+      471,
+      205
+    ],
+    "471": [
+      472,
+      473
+    ],
+    "472": [
+      473,
+      31,
+      201,
+      35,
+      474
+    ],
+    "475": [
+      205,
+      30,
+      20,
+      190,
+      476
+    ],
+    "477": [
+      478,
+      190,
+      205,
+      30
+    ],
+    "478": [
+      479,
+      34,
+      30,
+      38,
+      365,
+      31,
+      172
+    ],
+    "479": [
+      480,
+      481,
+      6,
+      16,
+      31,
+      127,
+      10
+    ],
+    "481": [
+      4,
+      480,
+      10,
+      19,
+      61,
+      6,
+      31,
+      223
+    ],
+    "482": [
+      483,
+      205,
+      30,
+      34,
+      443,
+      69,
+      6
+    ],
+    "483": [
+      5,
+      360,
+      53,
+      31,
+      4,
+      484,
+      237,
+      397,
+      485,
+      487,
+      488,
+      489,
+      494,
+      69,
+      172,
+      10,
+      495,
+      61,
+      35,
+      496,
+      497,
+      259
+    ],
+    "485": [
+      16,
+      9,
+      163,
+      69,
+      484,
+      486,
+      365,
+      7,
+      364,
+      31,
+      53,
+      366
+    ],
+    "487": [
+      31,
+      9,
+      364,
+      69,
+      34,
+      484,
+      30,
+      273,
+      307
+    ],
+    "488": [
+      18,
+      53,
+      31,
+      163,
+      69,
+      30,
+      365
+    ],
+    "489": [
+      5,
+      53,
+      31,
+      6,
+      490,
+      69,
+      10
+    ],
+    "490": [
+      491,
+      493,
+      484,
+      69,
+      53,
+      486,
+      16,
+      360,
+      307,
+      130,
+      10,
+      7
+    ],
+    "491": [
+      34,
+      362,
+      5,
+      31,
+      69,
+      273,
+      54,
+      6,
+      364,
+      492,
+      53
+    ],
+    "493": [
+      31,
+      69,
+      273
+    ],
+    "494": [
+      215,
+      484,
+      16,
+      307,
+      364,
+      259
+    ],
+    "496": [
+      215,
+      364,
+      16,
+      57,
+      163,
+      30,
+      10
+    ],
+    "497": [
+      69,
+      16,
+      9,
+      163,
+      30,
+      31,
+      53
+    ],
+    "498": [
+      499,
+      205,
+      30,
+      443,
+      66,
+      361,
+      34,
+      190,
+      4,
+      516
+    ],
+    "499": [
+      364,
+      484,
+      66,
+      500,
+      501,
+      502,
+      516,
+      31,
+      10,
+      5,
+      172,
+      127
+    ],
+    "502": [
+      53,
+      66,
+      500,
+      503,
+      31,
+      4,
+      5
+    ],
+    "503": [
+      504,
+      66,
+      6,
+      486,
+      53,
+      16,
+      31,
+      484,
+      443,
+      516
+    ],
+    "504": [
+      364,
+      10,
+      66,
+      6,
+      388,
+      42,
+      505,
+      500,
+      513,
+      514,
+      31,
+      307,
+      517,
+      518,
+      519,
+      5,
+      527,
+      528,
+      516,
+      53
+    ],
+    "505": [
+      361,
+      506
+    ],
+    "506": [
+      59,
+      30,
+      64,
+      155,
+      507,
+      508,
+      443,
+      31,
+      509,
+      511,
+      512,
+      484,
+      6,
+      66,
+      145,
+      163,
+      201
+    ],
+    "509": [
+      510
+    ],
+    "510": [
+      215,
+      15,
+      16,
+      255,
+      31,
+      163,
+      237,
+      53,
+      201
+    ],
+    "512": [
+      259,
+      16,
+      10
+    ],
+    "514": [
+      500,
+      515,
+      66,
+      31,
+      5,
+      53
+    ],
+    "515": [
+      364,
+      66,
+      500,
+      501,
+      163,
+      4,
+      31,
+      2,
+      362,
+      5,
+      307,
+      516
+    ],
+    "517": [
+      205
+    ],
+    "519": [
+      520,
+      443,
+      66
+    ],
+    "520": [
+      364,
+      53,
+      521,
+      523,
+      524,
+      484,
+      31,
+      66,
+      6,
+      10,
+      516,
+      63,
+      443
+    ],
+    "521": [
+      522
+    ],
+    "523": [
+      364,
+      307,
+      16,
+      5
+    ],
+    "524": [
+      525,
+      526,
+      307,
+      16
+    ],
+    "527": [
+      31,
+      4,
+      5,
+      500,
+      513,
+      66,
+      362,
+      364,
+      516
+    ],
+    "528": [
+      153,
+      443,
+      66,
+      529
+    ],
+    "529": [
+      53,
+      66,
+      153,
+      6,
+      484,
+      364,
+      530,
+      531,
+      112
+    ],
+    "530": [
+      364,
+      16,
+      307
+    ],
+    "531": [
+      525,
+      526,
+      16,
+      476,
+      307
+    ],
+    "532": [
+      533,
+      205,
+      30,
+      4,
+      443,
+      190
+    ],
+    "533": [
+      364,
+      411,
+      534,
+      4,
+      501,
+      31,
+      535,
+      57,
+      10,
+      536,
+      267,
+      6,
+      543,
+      247
+    ],
+    "536": [
+      364,
+      19,
+      273,
+      143,
+      534,
+      31,
+      513,
+      535,
+      4,
+      537,
+      67,
+      57,
+      7,
+      538,
+      539,
+      10,
+      237,
+      247
+    ],
+    "538": [
+      369,
+      443,
+      30,
+      152
+    ],
+    "539": [
+      54,
+      145,
+      540,
+      4,
+      31,
+      20,
+      30
+    ],
+    "540": [
+      541,
+      542
+    ],
+    "541": [
+      80
+    ],
+    "542": [
+      80
+    ],
+    "543": [
+      80
+    ],
+    "544": [
+      190,
+      203,
+      205
+    ],
+    "545": [
+      546,
+      205,
+      369,
+      30,
+      34,
+      38,
+      39
+    ],
+    "546": [
+      31,
+      143,
+      547,
+      548,
+      549,
+      4,
+      6,
+      16,
+      307
+    ],
+    "548": [
+      31,
+      547
+    ],
+    "549": [
+      215,
+      547,
+      22,
+      16,
+      307,
+      526,
+      550
+    ],
+    "551": [
+      34,
+      552,
+      205,
+      30,
+      443,
+      152
+    ],
+    "552": [
+      31,
+      27,
+      20,
+      16,
+      307,
+      553,
+      6,
+      4,
+      10,
+      50,
+      554,
+      562,
+      267
+    ],
+    "554": [
+      50,
+      4,
+      555,
+      31,
+      557,
+      558,
+      223,
+      16,
+      6,
+      559,
+      10
+    ],
+    "555": [
+      556,
+      557,
+      492
+    ],
+    "558": [
+      559,
+      31,
+      50,
+      307,
+      560,
+      562,
+      563
+    ],
+    "560": [
+      561,
+      163,
+      484,
+      10,
+      559,
+      16
+    ],
+    "561": [
+      365
+    ],
+    "563": [
+      6
+    ],
+    "564": [
+      565,
+      205,
+      369,
+      30,
+      34,
+      39,
+      38,
+      443,
+      314
+    ],
+    "565": [
+      31,
+      143,
+      16,
+      566,
+      567,
+      569,
+      568,
+      550,
+      201,
+      164,
+      132,
+      172,
+      10,
+      20,
+      223,
+      35,
+      4,
+      6,
+      55
+    ],
+    "566": [
+      31
+    ],
+    "567": [
+      307,
+      568
+    ],
+    "569": [
+      16,
+      570,
+      568,
+      550,
+      571,
+      201,
+      573,
+      330,
+      31
+    ],
+    "571": [
+      526,
+      16,
+      570,
+      572,
+      215,
+      124
+    ],
+    "573": [
+      574,
+      16,
+      201,
+      31,
+      307
+    ],
+    "575": [
+      30,
+      205,
+      190,
+      576
+    ],
+    "576": [
+      20,
+      439,
+      31,
+      577,
+      16,
+      578,
+      53
+    ],
+    "578": [
+      20,
+      15,
+      31,
+      163
+    ],
+    "580": [
+      581,
+      30,
+      205,
+      190,
+      34
+    ],
+    "581": [
+      215,
+      307,
+      252,
+      127,
+      16,
+      582,
+      584,
+      586,
+      587,
+      148,
+      172,
+      10,
+      553,
+      41,
+      588,
+      593
+    ],
+    "582": [
+      583
+    ],
+    "584": [
+      585
+    ],
+    "588": [
+      586,
+      10,
+      577,
+      273,
+      589,
+      593,
+      572,
+      594,
+      148,
+      149
+    ],
+    "589": [
+      132,
+      349,
+      590,
+      591,
+      592
+    ],
+    "594": [
+      593,
+      252,
+      595,
+      16,
+      307,
+      586,
+      153,
+      215
+    ],
+    "595": [
+      38,
+      16
+    ],
+    "597": [
+      260
+    ],
+    "601": [
+      205,
+      590,
+      365,
+      602,
+      30,
+      34,
+      172,
+      313,
+      603,
+      604,
+      153,
+      149,
+      10,
+      20,
+      53,
+      605,
+      606
+    ],
+    "603": [
+      80
+    ],
+    "604": [
+      80
+    ],
+    "606": [
+      53,
+      313
+    ],
+    "607": [
+      53,
+      4,
+      57,
+      537,
+      6,
+      273,
+      54,
+      67,
+      349,
+      275
+    ],
+    "608": [
+      609,
+      613,
+      511,
+      617
+    ],
+    "609": [
+      590,
+      349,
+      610,
+      611,
+      45,
+      612
+    ],
+    "613": [
+      359,
+      449,
+      10,
+      448,
+      245,
+      614,
+      615,
+      616
+    ],
+    "621": [
+      622,
+      620,
+      623
+    ],
+    "622": [
+      16
+    ],
+    "623": [
+      620,
+      6,
+      624,
+      625,
+      628
+    ],
+    "624": [
+      6,
+      53,
+      599,
+      16,
+      4,
+      54
+    ],
+    "625": [
+      620,
+      626,
+      627,
+      628,
+      629,
+      630
+    ],
+    "629": [
+      16
+    ],
+    "633": [
+      153,
+      377,
+      245
+    ],
+    "640": [
+      641,
+      341,
+      643,
+      646
+    ],
+    "641": [
+      642,
+      592,
+      645,
+      16,
+      591
+    ],
+    "642": [
+      340,
+      341,
+      632,
+      643,
+      644,
+      153
+    ],
+    "644": [
+      645,
+      51
+    ],
+    "647": [
+      53,
+      4,
+      6,
+      337,
+      338,
+      602,
+      48,
+      313,
+      52,
+      16,
+      55
+    ],
+    "655": [
+      31,
+      67,
+      34,
+      240,
+      30,
+      53,
+      4,
+      31
+    ],
+    "656": [
+      31,
+      30,
+      61,
+      145,
+      16,
+      4,
+      163,
+      6,
+      10,
+      181,
+      57,
+      42,
+      20,
+      201,
+      53,
+      657,
+      574,
+      330,
+      307
+    ],
+    "657": [
+      658,
+      659,
+      664,
+      667,
+      31,
+      130,
+      163
+    ],
+    "659": [
+      18,
+      660,
+      16,
+      6,
+      661,
+      31,
+      123,
+      663
+    ],
+    "660": [
+      16
+    ],
+    "661": [
+      662,
+      121,
+      31,
+      16
+    ],
+    "664": [
+      665,
+      16,
+      6,
+      121,
+      10,
+      31
+    ],
+    "665": [
+      666,
+      18,
+      16,
+      10,
+      31
+    ],
+    "666": [
+      16,
+      130,
+      10,
+      31,
+      439,
+      53,
+      42
+    ],
+    "667": [
+      16,
+      307
+    ],
+    "668": [
+      135,
+      4,
+      152,
+      190,
+      6,
+      10,
+      5,
+      55,
+      275,
+      350,
+      157,
+      31,
+      247
+    ],
+    "669": [
+      63
+    ],
+    "670": [
+      671,
+      39
+    ],
+    "671": [
+      672,
+      314,
+      255,
+      31,
+      16,
+      139,
+      201,
+      121,
+      359,
+      42,
+      6,
+      60,
+      163
+    ],
+    "672": [
+      662,
+      579,
+      673,
+      674
+    ],
+    "674": [
+      579,
+      31
+    ],
+    "675": [
+      20,
+      53,
+      172,
+      45
+    ],
+    "676": [
+      121,
+      20,
+      16,
+      18
+    ],
+    "677": [
+      210,
+      678,
+      209,
+      679,
+      189,
+      680,
+      681,
+      508,
+      682,
+      683,
+      685,
+      686,
+      412,
+      689
+    ],
+    "681": [
+      6,
+      10,
+      132,
+      599,
+      4
+    ],
+    "683": [
+      684
+    ],
+    "684": [
+      377
+    ],
+    "686": [
+      687,
+      688,
+      39
+    ],
+    "687": [
+      377,
+      4
+    ],
+    "688": [
+      449,
+      415,
+      245
+    ],
+    "689": [
+      352,
+      16,
+      7,
+      52,
+      68,
+      690,
+      53,
+      45,
+      313,
+      6,
+      55
+    ],
+    "690": [
+      149,
+      53,
+      45
+    ],
+    "691": [
+      139,
+      121,
+      31,
+      30,
+      53,
+      61
+    ],
+    "692": [
+      135,
+      411,
+      6,
+      4,
+      143
+    ],
+    "693": [
+      678,
+      209,
+      679,
+      682,
+      508,
+      680
+    ],
+    "694": [
+      695,
+      696,
+      697,
+      698,
+      699,
+      700
+    ],
+    "695": [
+      80
+    ],
+    "696": [
+      80
+    ],
+    "697": [
+      80
+    ],
+    "698": [
+      80
+    ],
+    "699": [
+      80
+    ],
+    "700": [
+      80
+    ],
+    "701": [
+      10,
+      348,
+      236,
+      45
+    ],
+    "702": [
+      307,
+      16,
+      45
+    ],
+    "703": [
+      215,
+      124
+    ],
+    "704": [
+      45,
+      201,
+      167,
+      650,
+      153,
+      705
+    ],
+    "705": [
+      227
+    ],
+    "706": [
+      707,
+      708,
+      709,
+      710
+    ],
+    "707": [
+      80
+    ],
+    "708": [
+      80
+    ],
+    "709": [
+      80
+    ],
+    "710": [
+      80
+    ],
+    "711": [
+      63
+    ],
+    "712": [
+      45,
+      167,
+      10,
+      310
+    ],
+    "713": [
+      661,
+      6,
+      53,
+      16,
+      163,
+      267,
+      714,
+      663,
+      123,
+      715,
+      45
+    ],
+    "714": [
+      53,
+      439,
+      16,
+      167,
+      267,
+      10,
+      45
+    ],
+    "716": [
+      377,
+      4
+    ],
+    "717": [
+      10,
+      6,
+      245,
+      718,
+      719,
+      4
+    ],
+    "719": [
+      48,
+      720,
+      153
+    ],
+    "721": [
+      16,
+      4,
+      53,
+      69,
+      600
+    ],
+    "722": [
+      4,
+      254,
+      57,
+      153,
+      719,
+      344,
+      53,
+      45,
+      720
+    ],
+    "723": [
+      61
+    ],
+    "724": [
+      18,
+      206,
+      574,
+      312,
+      53
+    ],
+    "725": [
+      80
+    ],
+    "726": [
+      80
+    ],
+    "727": [
+      80
+    ],
+    "728": [
+      80
+    ],
+    "729": [
+      51,
+      653
+    ],
+    "730": [
+      45,
+      53
+    ],
+    "731": [
+      344
+    ],
+    "732": [
+      415,
+      448,
+      733,
+      153,
+      38,
+      359,
+      734,
+      449,
+      333,
+      63,
+      51,
+      4,
+      152,
+      457,
+      736,
+      653,
+      344,
+      652,
+      618,
+      467,
+      737,
+      341,
+      738,
+      739
+    ],
+    "734": [
+      735,
+      465,
+      359,
+      456
+    ],
+    "740": [
+      446,
+      377,
+      653,
+      153,
+      736,
+      741,
+      646
+    ],
+    "742": [
+      45,
+      51,
+      743,
+      650,
+      112
+    ],
+    "744": [
+      340,
+      341,
+      631,
+      344,
+      314,
+      359,
+      637,
+      151,
+      638,
+      369,
+      639,
+      634
+    ],
+    "745": [
+      31
+    ],
+    "746": [
+      377,
+      4,
+      6,
+      599,
+      747,
+      748,
+      254,
+      749,
+      245,
+      750,
+      751,
+      152
+    ],
+    "751": [
+      112
+    ],
+    "752": [
+      556,
+      557,
+      492
+    ],
+    "753": [
+      31,
+      30,
+      18,
+      6,
+      4,
+      255,
+      16,
+      54,
+      7,
+      10,
+      67,
+      364,
+      172,
+      237,
+      20
+    ],
+    "754": [
+      5,
+      22,
+      364
+    ],
+    "755": [
+      756,
+      757,
+      758,
+      759,
+      760,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767,
+      768,
+      769,
+      770,
+      771,
+      772
+    ],
+    "758": [
+      80
+    ],
+    "760": [
+      80
+    ],
+    "761": [
+      80
+    ],
+    "762": [
+      80
+    ],
+    "763": [
+      80
+    ],
+    "764": [
+      80
+    ],
+    "765": [
+      80
+    ],
+    "767": [
+      80
+    ],
+    "769": [
+      80
+    ],
+    "770": [
+      31,
+      20,
+      18,
+      756,
+      766,
+      768,
+      759,
+      757
+    ],
+    "771": [
+      80
+    ],
+    "772": [
+      80
+    ],
+    "773": [
+      10,
+      153
+    ],
+    "774": [
+      31,
+      364
+    ],
+    "775": [
+      776
+    ],
+    "776": [
+      18,
+      181,
+      777,
+      778
+    ],
+    "777": [
+      737,
+      60,
+      778,
+      779,
+      245
+    ],
+    "779": [
+      780,
+      781
+    ],
+    "780": [
+      245,
+      6
+    ],
+    "782": [
+      359,
+      637,
+      449,
+      17,
+      415,
+      10,
+      550,
+      2,
+      16,
+      273,
+      4,
+      783,
+      784,
+      450,
+      160,
+      52,
+      152,
+      6,
+      137,
+      785,
+      786,
+      788,
+      448,
+      245,
+      456,
+      639,
+      789,
+      53,
+      614,
+      615,
+      616,
+      57
+    ],
+    "785": [
+      53
+    ],
+    "786": [
+      53,
+      54,
+      537,
+      66,
+      4,
+      599,
+      349,
+      275,
+      69,
+      313,
+      787,
+      73,
+      153,
+      600,
+      45
+    ],
+    "787": [
+      313,
+      73,
+      195
+    ],
+    "788": [
+      245
+    ],
+    "789": [
+      16
+    ],
+    "790": [
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      801,
+      811
+    ],
+    "791": [
+      80
+    ],
+    "792": [
+      80
+    ],
+    "793": [
+      80
+    ],
+    "794": [
+      22
+    ],
+    "795": [
+      80
+    ],
+    "796": [
+      80
+    ],
+    "798": [
+      80
+    ],
+    "799": [
+      800,
+      22,
+      18,
+      801
+    ],
+    "800": [
+      31
+    ],
+    "802": [
+      18
+    ],
+    "803": [
+      80
+    ],
+    "804": [
+      80
+    ],
+    "805": [
+      80
+    ],
+    "807": [
+      80
+    ],
+    "808": [
+      80
+    ],
+    "809": [
+      80
+    ],
+    "811": [
+      80
+    ],
+    "812": [
+      449,
+      245,
+      415,
+      153
+    ],
+    "813": [
+      383
+    ],
+    "814": [
+      10,
+      635
+    ],
+    "815": [
+      273
+    ],
+    "816": [
+      31,
+      400,
+      817,
+      205
+    ],
+    "817": [
+      366,
+      163,
+      205,
+      237
+    ],
+    "818": [
+      31,
+      6,
+      255,
+      16,
+      4,
+      10,
+      364,
+      819,
+      163,
+      54,
+      181,
+      237,
+      172
+    ],
+    "819": [
+      31,
+      364,
+      18
+    ],
+    "820": [
+      365,
+      31
+    ],
+    "821": [
+      31,
+      45
+    ],
+    "822": [
+      80
+    ],
+    "823": [
+      80
+    ],
+    "824": [
+      80
+    ],
+    "825": [
+      80
+    ],
+    "826": [
+      469
+    ],
+    "827": [
+      828,
+      829,
+      830,
+      831,
+      832,
+      834,
+      835,
+      836,
+      837
+    ],
+    "829": [
+      18
+    ],
+    "832": [
+      31,
+      833
+    ],
+    "833": [
+      22,
+      31,
+      501
+    ],
+    "834": [
+      16,
+      831,
+      830,
+      828,
+      215,
+      124
+    ],
+    "836": [
+      255,
+      835,
+      16,
+      18,
+      31,
+      121
+    ],
+    "837": [
+      80
+    ],
+    "838": [
+      273,
+      377,
+      4,
+      6,
+      446,
+      839
+    ],
+    "840": [
+      841
+    ],
+    "841": [
+      418,
+      45,
+      313
+    ],
+    "842": [
+      152,
+      6,
+      245,
+      456
+    ],
+    "843": [
+      844,
+      845,
+      846,
+      847,
+      849,
+      850,
+      851,
+      852,
+      783,
+      853,
+      459,
+      856,
+      858,
+      859,
+      861,
+      870,
+      596,
+      871,
+      874,
+      875
+    ],
+    "844": [
+      464
+    ],
+    "845": [
+      464,
+      457
+    ],
+    "846": [
+      464,
+      465
+    ],
+    "847": [
+      464,
+      465,
+      848
+    ],
+    "849": [
+      464
+    ],
+    "850": [
+      464,
+      57
+    ],
+    "851": [
+      464,
+      465,
+      4
+    ],
+    "852": [
+      464,
+      457
+    ],
+    "853": [
+      464,
+      465,
+      450,
+      16,
+      854,
+      855,
+      445
+    ],
+    "856": [
+      857,
+      464,
+      465,
+      469,
+      855
+    ],
+    "858": [
+      464
+    ],
+    "859": [
+      464,
+      57,
+      457,
+      465,
+      860,
+      344,
+      651,
+      652,
+      653,
+      153,
+      618,
+      720
+    ],
+    "861": [
+      862,
+      863,
+      653,
+      864,
+      865,
+      344,
+      866,
+      867,
+      868,
+      469,
+      153,
+      464,
+      465,
+      57,
+      848,
+      869
+    ],
+    "862": [
+      855
+    ],
+    "867": [
+      866
+    ],
+    "869": [
+      653,
+      864,
+      865,
+      344,
+      866,
+      868,
+      469,
+      4
+    ],
+    "870": [
+      464
+    ],
+    "871": [
+      464,
+      457,
+      872,
+      465
+    ],
+    "872": [
+      873
+    ],
+    "874": [
+      464,
+      848
+    ],
+    "875": [
+      464,
+      344,
+      720,
+      860,
+      465,
+      848
+    ],
+    "876": [
+      245
+    ],
+    "877": [
+      464,
+      57,
+      457,
+      465,
+      461,
+      469,
+      854,
+      720,
+      418,
+      878
+    ],
+    "878": [
+      469,
+      461,
+      854
+    ],
+    "879": [
+      418,
+      469,
+      854
+    ],
+    "880": [
+      60,
+      863,
+      881,
+      45
+    ],
+    "882": [
+      4,
+      23,
+      17,
+      883
+    ],
+    "884": [
+      436,
+      720,
+      885,
+      719,
+      245
+    ],
+    "886": [
+      45,
+      153
+    ],
+    "887": [
+      31,
+      201,
+      124,
+      172,
+      6,
+      888,
+      894
+    ],
+    "888": [
+      889,
+      890,
+      893
+    ],
+    "890": [
+      891,
+      574,
+      53,
+      35,
+      124,
+      16,
+      889,
+      10,
+      121,
+      57,
+      892,
+      172,
+      893
+    ],
+    "892": [
+      891
+    ],
+    "894": [
+      632,
+      307,
+      16,
+      153,
+      20,
+      359,
+      314,
+      42,
+      654
+    ],
+    "895": [
+      896
+    ],
+    "896": [
+      31,
+      130,
+      16,
+      22,
+      18,
+      20,
+      897,
+      898,
+      501,
+      121
+    ],
+    "897": [
+      16
+    ],
+    "898": [
+      899,
+      900,
+      901,
+      902,
+      903,
+      904,
+      905,
+      906,
+      907,
+      908,
+      909,
+      910
+    ],
+    "899": [
+      80
+    ],
+    "900": [
+      80
+    ],
+    "901": [
+      80
+    ],
+    "902": [
+      80
+    ],
+    "903": [
+      80
+    ],
+    "904": [
+      80
+    ],
+    "905": [
+      80
+    ],
+    "906": [
+      80
+    ],
+    "907": [
+      80
+    ],
+    "908": [
+      80
+    ],
+    "909": [
+      80
+    ],
+    "910": [
+      80
+    ],
+    "911": [
+      31
+    ],
+    "912": [
+      6,
+      53,
+      600
+    ],
+    "913": [
+      364,
+      307,
+      16
+    ],
+    "914": [
+      66
+    ],
+    "915": [
+      916,
+      917,
+      918,
+      919
+    ],
+    "916": [
+      80
+    ],
+    "917": [
+      80
+    ],
+    "918": [
+      80
+    ],
+    "919": [
+      80
+    ],
+    "920": [
+      247
+    ],
+    "921": [
+      617,
+      511,
+      922,
+      923,
+      6,
+      54,
+      590,
+      518,
+      31,
+      443,
+      152,
+      369,
+      30,
+      64,
+      4,
+      10,
+      181,
+      924,
+      155,
+      57,
+      53,
+      59,
+      507,
+      67,
+      273
+    ],
+    "922": [
+      273,
+      143,
+      369,
+      31,
+      4
+    ],
+    "923": [
+      143,
+      16,
+      511,
+      64,
+      155,
+      617,
+      522,
+      54
+    ],
+    "924": [
+      57,
+      6,
+      925
+    ],
+    "925": [
+      59,
+      45,
+      63
+    ],
+    "926": [
+      377,
+      4,
+      446
+    ],
+    "927": [
+      928,
+      929,
+      930,
+      931,
+      492,
+      932,
+      933
+    ],
+    "928": [
+      215,
+      364,
+      259,
+      16,
+      484,
+      307,
+      10,
+      6
+    ],
+    "929": [
+      22,
+      364
+    ],
+    "930": [
+      411,
+      259,
+      16,
+      364,
+      307
+    ],
+    "931": [
+      364,
+      16
+    ],
+    "932": [
+      364,
+      19,
+      16,
+      66,
+      500,
+      933,
+      10,
+      163,
+      31,
+      53
+    ],
+    "934": [
+      53,
+      66,
+      10,
+      6,
+      63,
+      54,
+      64,
+      4,
+      495
+    ],
+    "935": [
+      936,
+      937,
+      938,
+      939,
+      940,
+      941
+    ],
+    "936": [
+      80
+    ],
+    "937": [
+      80
+    ],
+    "938": [
+      80
+    ],
+    "939": [
+      80
+    ],
+    "940": [
+      80
+    ],
+    "941": [
+      80
+    ],
+    "942": [
+      943,
+      636
+    ],
+    "943": [
+      80
+    ],
+    "944": [
+      10,
+      31
+    ],
+    "945": [
+      51,
+      53,
+      4,
+      5,
+      11,
+      77,
+      8,
+      553,
+      57,
+      6,
+      67,
+      54,
+      66,
+      535,
+      946,
+      50,
+      349,
+      60,
+      495,
+      48,
+      69,
+      28,
+      23,
+      71,
+      516,
+      16,
+      600
+    ],
+    "947": [
+      948,
+      949,
+      950,
+      951,
+      952,
+      953,
+      954,
+      955,
+      956,
+      957
+    ],
+    "948": [
+      80
+    ],
+    "949": [
+      80
+    ],
+    "950": [
+      80
+    ],
+    "951": [
+      80
+    ],
+    "952": [
+      80
+    ],
+    "953": [
+      80
+    ],
+    "954": [
+      80
+    ],
+    "955": [
+      80
+    ],
+    "956": [
+      80
+    ],
+    "957": [
+      80
+    ],
+    "958": [
+      6,
+      48,
+      443,
+      16,
+      17,
+      54,
+      568,
+      415,
+      4,
+      53,
+      55
+    ],
+    "959": [
+      50,
+      53,
+      6,
+      23,
+      4,
+      5,
+      77,
+      8,
+      57,
+      66,
+      535,
+      349,
+      54,
+      16,
+      495,
+      69,
+      40,
+      48,
+      60,
+      516,
+      600
+    ],
+    "960": [
+      31,
+      18,
+      364
+    ],
+    "961": [
+      31,
+      18,
+      364,
+      484,
+      10,
+      492
+    ],
+    "962": [
+      756,
+      757,
+      758,
+      759,
+      760,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767,
+      768,
+      769,
+      770,
+      771,
+      772
+    ],
+    "963": [
+      964,
+      965,
+      966,
+      967
+    ],
+    "964": [
+      80
+    ],
+    "965": [
+      80
+    ],
+    "966": [
+      80
+    ],
+    "967": [
+      80
+    ],
+    "968": [
+      80
+    ],
+    "969": [
+      4,
+      377,
+      359,
+      42,
+      6,
+      201,
+      446,
+      637,
+      970,
+      16,
+      153,
+      236,
+      309,
+      654
+    ],
+    "970": [
+      59,
+      6,
+      245,
+      153
+    ],
+    "971": [
+      365
+    ],
+    "972": [
+      18,
+      973,
+      662,
+      139,
+      121,
+      31,
+      130,
+      145,
+      673,
+      661,
+      16,
+      439,
+      6,
+      976,
+      4,
+      163
+    ],
+    "973": [
+      206,
+      501,
+      974,
+      975,
+      60,
+      16
+    ],
+    "974": [
+      80
+    ],
+    "977": [
+      978
+    ],
+    "979": [
+      60,
+      6,
+      48,
+      4,
+      53,
+      54,
+      518,
+      66,
+      67,
+      610,
+      537,
+      57,
+      63,
+      252,
+      349
+    ],
+    "980": [
+      464
+    ],
+    "981": [
+      254,
+      48,
+      4,
+      553,
+      53,
+      57,
+      67,
+      54
+    ],
+    "982": [
+      45
+    ],
+    "983": [
+      737,
+      16,
+      873,
+      4,
+      57,
+      984
+    ],
+    "984": [
+      60,
+      53,
+      66,
+      64,
+      55,
+      54
+    ],
+    "985": [
+      45
+    ],
+    "986": [
+      4,
+      245
+    ],
+    "987": [
+      652,
+      344,
+      153,
+      651,
+      653,
+      650,
+      611,
+      313
+    ],
+    "988": [
+      383,
+      223
+    ],
+    "989": [
+      333,
+      377,
+      4,
+      335,
+      334,
+      10,
+      446,
+      990,
+      467,
+      153,
+      618,
+      650,
+      646,
+      344
+    ],
+    "991": [
+      53,
+      344
+    ],
+    "992": [
+      80
+    ],
+    "993": [
+      377,
+      4,
+      16,
+      446
+    ],
+    "994": [
+      245
+    ],
+    "995": [
+      996,
+      997
+    ],
+    "998": [
+      448,
+      359,
+      449,
+      245,
+      632,
+      63,
+      333,
+      6
+    ],
+    "999": [
+      245
+    ],
+    "1000": [
+      1001
+    ],
+    "1001": [
+      1002,
+      1004,
+      853,
+      1005,
+      861,
+      1006,
+      1007,
+      468,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      377,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1019,
+      1020,
+      1021,
+      617,
+      1022,
+      1024
+    ],
+    "1002": [
+      733,
+      453,
+      1003,
+      718
+    ],
+    "1004": [
+      733,
+      1003,
+      618,
+      885,
+      720
+    ],
+    "1005": [
+      857,
+      1003,
+      733,
+      648,
+      720
+    ],
+    "1006": [
+      733,
+      1003,
+      10
+    ],
+    "1007": [
+      1003,
+      733
+    ],
+    "1008": [
+      733,
+      1003,
+      10
+    ],
+    "1009": [
+      1003,
+      733
+    ],
+    "1010": [
+      1003,
+      245
+    ],
+    "1011": [
+      45,
+      245
+    ],
+    "1012": [
+      453,
+      718,
+      245,
+      1003
+    ],
+    "1013": [
+      1003,
+      245
+    ],
+    "1014": [
+      1003,
+      718,
+      245,
+      878,
+      720,
+      418
+    ],
+    "1015": [
+      245,
+      245
+    ],
+    "1016": [
+      453,
+      245,
+      1003
+    ],
+    "1017": [
+      1018,
+      720,
+      885,
+      1003,
+      245
+    ],
+    "1018": [
+      750,
+      112
+    ],
+    "1019": [
+      653,
+      885,
+      1003,
+      245
+    ],
+    "1020": [
+      245
+    ],
+    "1021": [
+      4,
+      54,
+      63,
+      245
+    ],
+    "1022": [
+      1023,
+      245
+    ],
+    "1024": [
+      1003,
+      245
+    ],
+    "1025": [
+      469,
+      45,
+      153
+    ],
+    "1026": [
+      333
+    ],
+    "1027": [
+      45,
+      153
+    ],
+    "1028": [
+      45,
+      153,
+      51,
+      650
+    ],
+    "1029": [
+      215,
+      31,
+      139
+    ],
+    "1030": [
+      662,
+      178,
+      31
+    ],
+    "1031": [
+      55,
+      1032,
+      31,
+      307
+    ],
+    "1032": [
+      20,
+      31,
+      18,
+      16,
+      10,
+      1033,
+      416,
+      4,
+      307,
+      247,
+      215,
+      365
+    ],
+    "1033": [
+      1034
+    ],
+    "1034": [
+      31,
+      20,
+      16,
+      18,
+      307,
+      1035
+    ],
+    "1035": [
+      1036,
+      592,
+      1037
+    ],
+    "1036": [
+      60
+    ],
+    "1037": [
+      743,
+      344,
+      653
+    ],
+    "1038": [
+      143,
+      6,
+      135,
+      54,
+      10,
+      16
+    ],
+    "1039": [
+      135,
+      416,
+      16
+    ],
+    "1040": [
+      855
+    ],
+    "1041": [
+      4,
+      16,
+      20,
+      415,
+      53
+    ],
+    "1042": [
+      377,
+      4,
+      359,
+      990,
+      446,
+      153,
+      245
+    ],
+    "1043": [
+      80
+    ],
+    "1044": [
+      80
+    ],
+    "1045": [
+      80
+    ],
+    "1046": [
+      80
+    ],
+    "1047": [
+      80
+    ],
+    "1048": [
+      464,
+      457,
+      415
+    ],
+    "1049": [
+      80
+    ],
+    "1050": [
+      80
+    ],
+    "1051": [
+      80
+    ],
+    "1052": [
+      80
+    ],
+    "1053": [
+      31,
+      139,
+      10
+    ],
+    "1054": [
+      45
+    ],
+    "1055": [
+      153,
+      45
+    ],
+    "1056": [
+      653,
+      864,
+      865,
+      344,
+      469,
+      866
+    ],
+    "1057": [
+      53
+    ],
+    "1058": [
+      1059
+    ],
+    "1059": [
+      80
+    ],
+    "1060": [
+      19,
+      273,
+      34,
+      364,
+      10,
+      484,
+      365,
+      31,
+      155,
+      500
+    ]
+  },
   "subTrees": [
-    {
-      "name": "\\src\\shared\\services\\localization",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\types\\utils\\Nullable",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\components\\Form\\layout E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\components\\If",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\constants\\prop-types Short ",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\If"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\services\\handleNotifications",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\utils\\funcs E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\httpStatuses",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\errorHandlers",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\mappers E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\errorHandlers"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\utils\\deepmerge",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\errorHandlers"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\common\\get E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\services\\localization E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-              ],
-              "children": null
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\ui",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\utils\\common\\get",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\types\\utils\\Nullable",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\get"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\constants\\formBuilder",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\constants\\icons\\iconByLayoutType",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\types\\FormBuilder\\components\\source",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\types\\utils\\FixMe",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\source"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\types\\utils\\Nullable",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\source"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\conditions E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\finalFormDecorators",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\constants\\finalFormFields",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\conditions E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\utils\\conditionsChecker E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\utils\\finalFormDecorators\\utils",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\string E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\regex",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\types\\FormBuilder\\Conditions",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\conditions E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\common",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\Conditions"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\finalFormDecorators\\circsDecorator",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\constants\\circs",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\circsDecorator"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\finalFormDecorators\\utils",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\string E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\operators",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\circsDecorator"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\operators",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\regex",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\setFieldDataBatch",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\types\\utils\\ValueOf",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\constants\\conditions",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\constants\\finalFormFields",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\datePicker E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\dateTime",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\mappers E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime"
-              ],
-              "children": null
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\common\\common Recursion! ",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\operators",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\utils\\helpers",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\utils\\common\\common E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\resources",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\common\\get E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\funcs E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\mapping",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\utils\\fields",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\utils\\common\\get E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\string E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\regex",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\fields\\list",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\formBuilder E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\getSplitSettingName",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\common",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\validation",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\types\\entities\\FieldsSettingsShema",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\constants\\icons\\buttonIcons",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\types\\utils\\Nullable",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\types\\utils\\FixMe",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-              ]
-            },
-            {
-              "name": "\\src\\FormBuilder\\constants\\renderOptions",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectMenu",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\types\\utils\\Nullable",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\source"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectMenu"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions"
-                      ],
-                      "children": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\constants\\formBuilder E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-              ],
-              "children": null
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\types\\utils\\Nullable",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\utils\\formBuilderConverter",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\constants\\formBuilder E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\mappers E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\errorHandlers"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\mesurment",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\common\\get E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\constants\\regex",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\types\\utils\\Nullable",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\common\\common E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-              ],
-              "children": null
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\common\\get E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\filters",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\common\\get E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\constants\\formBuilder E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\constants\\filters",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\constants\\common",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\Conditions"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\constants",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\constants\\filters",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\formBuilder E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\utils\\mappers E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\utils\\filters\\circs",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\filters\\mapping",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\mapping",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\dataSource",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\resources",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\common",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\string E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\fields E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\filters",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\mesurment",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\common\\get E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\regex",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\utils\\Nullable",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\common\\common E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\helpers E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\formBuilder E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\getSplitSettingName",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\helpers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\filters\\matching",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\common",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\Conditions"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\dataSource",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\resources",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\common",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\string E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\fields E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\filters",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\mesurment",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\common\\get E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\regex",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\utils\\Nullable",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\common\\common E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\helpers E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\formBuilder E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\getSplitSettingName",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\group",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\filters\\constants",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\filters",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mappers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\filters\\circs",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\filters\\mapping",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\mapping",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\dataSource",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\constants\\resources",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\regex",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\common",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\string E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\common\\get E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\fields E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\filters",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\mesurment",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\get E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\regex",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\types\\utils\\Nullable",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\common E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\helpers E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\formBuilder E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\getSplitSettingName",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\helpers E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\filters\\matching",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\common",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\Conditions"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\dataSource",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\constants\\resources",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\regex",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\common",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\string E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\common\\get E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\fields E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\filters",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\mesurment",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\get E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\regex",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\types\\utils\\Nullable",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\common E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\helpers E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\formBuilder E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\getSplitSettingName",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\constants\\regex",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\string E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\utils\\dataSource",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\constants\\resources",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\regex",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\common",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\string E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\utils\\fields E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\constants\\filters",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\mesurment",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\regex",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\utils\\Nullable",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\common E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\helpers E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\constants\\formBuilder E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\utils\\getSplitSettingName",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\memoizedFilter",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\mesurment Recursion! ",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\fields E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\common\\common E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-          ],
-          "children": null
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\utils\\mappers",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\utils\\common\\get E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\types\\utils\\FixMe",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\utils\\funcs",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\constants\\errors",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\services\\localization E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\types\\utils\\Nullable",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\mesurment",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\common\\get E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\constants\\regex",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\types\\utils\\Nullable",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\common\\common E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-              ],
-              "children": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\utils\\string E",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils"
-      ],
-      "children": null
-    },
-    {
-      "name": "\\src\\shared\\utils\\conditionsChecker",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\constants\\conditions E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\operators",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\common\\get E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\finalFormFields",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\mesurment Recursion! ",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\constants\\selectMenu",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectMenu",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\selectMenu"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\types\\utils\\Nullable",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\source"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectMenu"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\constants\\formBuilder E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions"
-                  ],
-                  "children": null
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\constants\\datePicker",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\constants\\dateTime",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\mappers E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime"
-              ],
-              "children": null
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\types\\utils\\ValueOf",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\FieldError\\FieldErrorProvider",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\useFieldErrorType"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\constants\\prop-types Short ",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\If"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\finalFormDecorators\\utils",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\string E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils"
-              ],
-              "children": null
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\hooks\\useUpdateEffect",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\useFieldErrorType",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\FieldErrorProvider"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\filters\\constants",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\constants\\filters",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\constants\\formBuilder E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\utils\\mappers E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\circs",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\mapping",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\constants\\mapping",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\dataSource",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\resources",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\regex",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\common",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\string E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\fields E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\filters",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mesurment",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\helpers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\getSplitSettingName",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\helpers E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                  ],
-                  "children": null
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\matching",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\constants\\common",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\Conditions"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\dataSource",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\resources",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\regex",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\common",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\string E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\fields E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\filters",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mesurment",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\helpers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\getSplitSettingName",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\finalFormFields",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\utils\\common\\common",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\constants\\formBuilder E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions"
-              ],
-              "children": null
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\common\\get E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\mappers E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\utils\\string E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\constants\\common",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\Conditions"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\constants\\errorMessages",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\utils\\mesurment Recursion! ",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-          ]
-        },
-        {
-          "name": "\\src\\shared\\types\\utils\\Nullable",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\get"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\PhoneInput",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\utils\\filters\\constants",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\constants\\filters",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\constants\\formBuilder E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\utils\\mappers E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\circs",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\mapping",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\constants\\mapping",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\dataSource",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\resources",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\regex",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\common",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\string E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\fields E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\filters",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mesurment",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\helpers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\getSplitSettingName",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\helpers E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                  ],
-                  "children": null
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\matching",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\constants\\common",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\Conditions"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\dataSource",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\resources",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\regex",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\common",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\string E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\fields E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\filters",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mesurment",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\helpers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\getSplitSettingName",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\components\\If E",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-          ],
-          "children": null
-        },
-        {
-          "name": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\constants\\keyCodes",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\utils\\events",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\constants\\keyCodes",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\events"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\ui",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\constants\\prop-types Short ",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\HOCS",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\HOCS\\mapProps",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\HOCS\\addStaticFields",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\mapProps"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withHandleInputChange",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\HOCS\\addStaticFields",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\mapProps"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\debounce",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withHandleInputChange"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\hooks\\usePrevious",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorTooltipDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\useFieldError"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withCloseModalOnEsc",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\keyCodes",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\events"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withShallowEqualWithoutReactElements",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withFinalForms",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                },
-                {
-                  "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withHandleValuesOfChoice",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withFormValues",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\formBuilderConverter E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\prop-types Short ",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\hooks\\useMemoCompare",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withVirtualOptions",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\prop-types Short ",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\If"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\services\\FormDataService",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\services\\FormDataService\\FormDataService",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\mesurment",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService\\FormDataService"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\get E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\regex",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\types\\utils\\Nullable",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\common E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService\\FormDataContext",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\helpers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\services\\localization E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\services\\handleNotifications E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mesurment",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\hooks\\useUpdateEffect",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\useFieldErrorType",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\FieldErrorProvider"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\selectMenu E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormDataService",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                },
-                {
-                  "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptionsState",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\constants\\formBuilder E",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js"
-              ],
-              "children": null
-            },
-            {
-              "name": "\\src\\shared\\utils\\filters\\constants",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\constants\\filters",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\formBuilder E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\utils\\mappers E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\utils\\filters\\circs",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\filters\\mapping",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\mapping",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\dataSource",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\resources",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\common",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\string E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\fields E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\filters",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\mesurment",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\common\\get E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\regex",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\utils\\Nullable",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\common\\common E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\helpers E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\formBuilder E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\getSplitSettingName",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\helpers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\filters\\matching",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\common",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\Conditions"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\dataSource",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\resources",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\common",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\string E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\fields E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\filters",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\mesurment",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\common\\get E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\regex",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\utils\\Nullable",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\common\\common E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\helpers E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\formBuilder E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\getSplitSettingName",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "\\src\\shared\\components\\Form\\controls\\DataValueInput",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders"
-          ],
-          "children": [
-            {
-              "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput\\DataValueInput",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\redux\\modules\\placeholders\\selectors",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\utils\\common\\get E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\store",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\entities\\PaginationStore",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\types\\entities\\Meta\\BaseMeta",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\PaginationStore"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\FixMe",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\redux\\modules\\placeholders\\types",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\store",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\common\\common E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\entities\\PaginationStore",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\types\\entities\\Meta\\BaseMeta",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\PaginationStore"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\utils\\FixMe",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\redux\\modules\\placeholders\\types",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mesurment",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\fieldMappers",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\icons\\fieldTypeIcons",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\incomingDataConverter",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\constants\\circs",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\formBuilder E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\mesurment",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\get E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\regex",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\types\\utils\\Nullable",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\common E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\datePicker E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\common\\get E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\finalFormFields",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\conditions E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\operators",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\mappers E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\errorHandlers"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\mapping",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\tree",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\formBuilderConverter E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\helpers E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\services\\localization E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\defaultValues",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\services\\localization E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\get E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\formBuilder E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\matching",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\defaultValues"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\selectMenu E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                                  ],
-                                  "children": null
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\matching",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\defaultValues"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\emptyConditions",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\constants\\conditions E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\finalFormFields",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\conditionsChecker"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\utils\\common\\common E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\common",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\constants\\formBuilder E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\mapping",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\common E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\mesurment",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers"
-                                  ],
-                                  "children": [
-                                    {
-                                      "name": "\\src\\shared\\utils\\common\\get E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                      ],
-                                      "children": null
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\constants\\regex",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                      ]
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\types\\utils\\Nullable",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                                      ]
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\utils\\common\\common E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                      ],
-                                      "children": null
-                                    }
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\string E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\helpers E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\dataSource",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers"
-                                  ],
-                                  "children": [
-                                    {
-                                      "name": "\\src\\shared\\constants\\resources",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                                      ]
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\constants\\regex",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                      ]
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\constants\\common",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\finalFormDecorators\\utils",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\string"
-                                      ]
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\utils\\string E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                                      ],
-                                      "children": null
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\utils\\common\\get E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                      ],
-                                      "children": null
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\utils\\fields E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                                      ],
-                                      "children": null
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\constants\\filters",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                                      ]
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\utils\\mesurment",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                                      ],
-                                      "children": [
-                                        {
-                                          "name": "\\src\\shared\\utils\\common\\get E",
-                                          "chain": [
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                          ],
-                                          "children": null
-                                        },
-                                        {
-                                          "name": "\\src\\shared\\constants\\regex",
-                                          "chain": [
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                          ]
-                                        },
-                                        {
-                                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                                          "chain": [
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                                          ]
-                                        },
-                                        {
-                                          "name": "\\src\\shared\\utils\\common\\common E",
-                                          "chain": [
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                          ],
-                                          "children": null
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\utils\\helpers E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                                      ],
-                                      "children": null
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\constants\\formBuilder E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                                      ],
-                                      "children": null
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\utils\\getSplitSettingName",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                                      ]
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\utils\\findObjectInArrayByProperty",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\get E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\defaultValues",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers"
-                                  ],
-                                  "children": [
-                                    {
-                                      "name": "\\src\\shared\\services\\localization E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-                                      ],
-                                      "children": null
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\utils\\common\\get E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                      ],
-                                      "children": null
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\constants\\formBuilder E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                                      ],
-                                      "children": null
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\constants\\matching",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\incomingDataConverter",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\defaultValues"
-                                      ]
-                                    },
-                                    {
-                                      "name": "\\src\\shared\\constants\\selectMenu E",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                                      ],
-                                      "children": null
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\selectMenu E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                              ],
-                              "children": null
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\formBuilder E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\mappers E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\errorHandlers"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\funcs E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\helpers"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\helpers E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\constants",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters\\mapping",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\dataSource"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\documents",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\uploadingStatuses",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\icons\\fieldTypeIcons",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\createOptionMapper",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\redux\\modules\\placeholders\\types",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\flowRevisionStatuses",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\flowRevisionEditStatus",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\types\\utils\\ValueOf",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\redux\\modules\\loader\\selectors",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\store",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\common E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\types\\entities\\PaginationStore",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store"
-                                  ],
-                                  "children": [
-                                    {
-                                      "name": "\\src\\shared\\types\\entities\\Meta\\BaseMeta",
-                                      "chain": [
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store",
-                                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\PaginationStore"
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\types\\utils\\FixMe",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\redux\\modules\\placeholders\\types",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\placeholders",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\placeholders",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\icons\\fieldTypeIcons",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\services\\localization E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mesurment",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\dateTime",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\mappers E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\components\\Form\\controls\\Select\\constants",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\regex",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\FormBuilder\\placeholders",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\placeholders",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\constants\\formBuilder E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions"
-                              ],
-                              "children": null
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\entities\\SlateAddonEventType",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\constants\\events",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddonEventType"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\FixMe",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\placeholdersFilters\\types",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\types\\FormBuilder\\placeholders Recursion! ",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholdersFilters\\types"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\entities\\Document",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\types\\entities\\DocumentField",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\Document"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\formBuilder E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\utils\\FixMe",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\entities\\FieldsSettingsShema",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\icons\\buttonIcons",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\FixMe",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\FormBuilder\\constants\\renderOptions",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectMenu",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\types\\utils\\Nullable",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\source"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectMenu"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\constants\\formBuilder E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions"
-                                  ],
-                                  "children": null
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\formBuilder E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\utils\\Placeholders",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\mesurment",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\regex",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\utils\\Nullable",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\common E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\placeholders",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\redux\\utils",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\icons\\fieldTypeIcons",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mappers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\utils\\FixMe",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\store",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\entities\\PaginationStore",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\types\\entities\\Meta\\BaseMeta",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\PaginationStore"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\FixMe",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\entities\\SlateAddOnApi",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\addOnStatuses",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\addOnSources",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddOnApi"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\entities\\SlateAddonEventType",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddOnApi"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\constants\\events",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddonEventType"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\ValueOf",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddOnApi"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\utils\\Nullable",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\entities\\PaginationStore",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\types\\entities\\Meta\\BaseMeta",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\PaginationStore"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\redux\\modules\\roles\\selectors",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\store",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\common\\common E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\entities\\PaginationStore",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\types\\entities\\Meta\\BaseMeta",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\PaginationStore"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\utils\\FixMe",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\redux\\modules\\placeholders\\types",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\services\\localization E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\roles\\selectors"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\redux\\utils",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\icons\\fieldTypeIcons",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fieldMappers"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\mappers E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\FixMe",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\store",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\common\\common E",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                              ],
-                              "children": null
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\entities\\PaginationStore",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\types\\entities\\Meta\\BaseMeta",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\PaginationStore"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\utils\\FixMe",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\formBuilder",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\conditions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\datePicker",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\dateTime",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mappers"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\entities\\SlateAddOnApi",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\types\\utils\\Nullable",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\addOnStatuses",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\constants\\addOnSources",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddOnApi"
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\entities\\SlateAddonEventType",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddOnApi"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\constants\\events",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddonEventType"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "name": "\\src\\shared\\types\\utils\\ValueOf",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\utils",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddOnApi"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\formBuilder E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\entities\\PaginationStore",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\types\\entities\\Meta\\BaseMeta",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\store",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\PaginationStore"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\placeholdersFilters\\placeholdersFilter",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\filters",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\formBuilderConverter",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\filters"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mesurment Recursion! ",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\redux\\modules\\placeholders\\types",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\reducer"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\utils\\FixMe",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholdersFilters\\placeholdersFilter"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\services\\localization E",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\roles\\selectors"
-                  ],
-                  "children": null
-                },
-                {
-                  "name": "\\src\\shared\\types\\utils\\FixMe",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\types\\FormBuilder\\placeholders",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\types\\utils\\Nullable",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\placeholders",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\formBuilder E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\entities\\SlateAddonEventType",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\events",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddonEventType"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\types\\utils\\FixMe",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\placeholdersFilters\\types",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\types\\FormBuilder\\placeholders Recursion! ",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholdersFilters\\types"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldDropDown\\FieldDropDown",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\types\\entities\\Document",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\types\\entities\\DocumentField",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\Document"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\prop-types Short ",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\withUserSettings",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\prop-types Short ",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\common\\common E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\withUserSettings"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\withSlateAddOnId",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\prop-types Short ",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\HOCS",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\HOCS\\mapProps",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\HOCS\\addStaticFields",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\mapProps"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withHandleInputChange",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\HOCS\\addStaticFields",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\mapProps"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\debounce",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withHandleInputChange"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\hooks\\usePrevious",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorTooltipDecorator",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\useFieldError"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withCloseModalOnEsc",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\keyCodes",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\events"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withShallowEqualWithoutReactElements",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withFinalForms",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                },
-                {
-                  "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withHandleValuesOfChoice",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withFormValues",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\utils\\common\\get E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\formBuilderConverter E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\constants\\prop-types Short ",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\hooks\\useMemoCompare",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormValues"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\HOCS\\withVirtualOptions",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\prop-types Short ",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\If"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\services\\FormDataService",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\services\\FormDataService\\FormDataService",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService"
-                          ],
-                          "children": [
-                            {
-                              "name": "\\src\\shared\\utils\\mesurment",
-                              "chain": [
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService",
-                                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService\\FormDataService"
-                              ],
-                              "children": [
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\get E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                },
-                                {
-                                  "name": "\\src\\shared\\constants\\regex",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\types\\utils\\Nullable",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                                  ]
-                                },
-                                {
-                                  "name": "\\src\\shared\\utils\\common\\common E",
-                                  "chain": [
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                                  ],
-                                  "children": null
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService\\FormDataContext",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\FormDataService"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\helpers E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\services\\localization E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\constants\\errors"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\services\\handleNotifications E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields"
-                      ],
-                      "children": null
-                    },
-                    {
-                      "name": "\\src\\shared\\utils\\mesurment",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": [
-                        {
-                          "name": "\\src\\shared\\utils\\common\\get E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        },
-                        {
-                          "name": "\\src\\shared\\constants\\regex",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\types\\utils\\Nullable",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\localization"
-                          ]
-                        },
-                        {
-                          "name": "\\src\\shared\\utils\\common\\common E",
-                          "chain": [
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment"
-                          ],
-                          "children": null
-                        }
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\hooks\\useUpdateEffect",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\components\\FieldErrorComponent",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\useFieldErrorType",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\FieldError\\FieldErrorProvider"
-                      ]
-                    },
-                    {
-                      "name": "\\src\\shared\\constants\\selectMenu E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptions"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withFormDataService",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                },
-                {
-                  "name": "No file at D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS\\withVirtualOptionsState",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\HOCS"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "\\src\\shared\\types\\utils\\FixMe",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput"
-              ]
-            },
-            {
-              "name": "\\src\\shared\\types\\FormBuilder\\placeholders",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput"
-              ],
-              "children": [
-                {
-                  "name": "\\src\\shared\\types\\utils\\Nullable",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\constants\\placeholders",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\formBuilder E",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\services\\handleNotifications",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\funcs",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\mesurment",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\common\\common",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\components\\SelectOptions"
-                      ],
-                      "children": null
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\types\\entities\\SlateAddonEventType",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\constants\\events",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\SlateAddonEventType"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\types\\utils\\FixMe",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\ValidationService",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\fields",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\entities\\FieldsSettingsShema"
-                  ]
-                },
-                {
-                  "name": "\\src\\shared\\utils\\placeholdersFilters\\types",
-                  "chain": [
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                    "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders"
-                  ],
-                  "children": [
-                    {
-                      "name": "\\src\\shared\\types\\FormBuilder\\placeholders Recursion! ",
-                      "chain": [
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\DataValueInput",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\redux\\modules\\placeholders\\selectors",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\types\\FormBuilder\\placeholders",
-                        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\placeholdersFilters\\types"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\components\\FieldValue\\FieldValueButtonAdd",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\utils\\CreateComponent",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValueButtonAdd"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\common\\filterObject",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\layout",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\layout\\FormGroupPanel",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\CreateComponent"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\components\\FieldValue\\FieldValueButton",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\utils\\CreateComponent",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValueButtonAdd"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\common\\filterObject",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\layout",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\layout\\FormGroupPanel",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\CreateComponent"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\components\\FieldValue\\FieldValueButtonBody",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\utils\\CreateComponent",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValueButtonAdd"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\common\\filterObject",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\layout",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\layout\\FormGroupPanel",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\CreateComponent"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "\\src\\shared\\components\\FieldValue\\FieldValueButtonText",
-      "chain": [
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-        "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue"
-      ],
-      "children": [
-        {
-          "name": "\\src\\shared\\utils\\CreateComponent",
-          "chain": [
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValue",
-            "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\FieldValue\\FieldValueButtonAdd"
-          ],
-          "children": [
-            {
-              "name": "\\src\\shared\\utils\\common\\filterObject",
-              "chain": [
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\layout",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\layout\\FormGroupPanel",
-                "D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\CreateComponent"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    43,
+    44,
+    46,
+    49,
+    74,
+    76,
+    78,
+    83,
+    84,
+    85,
+    86,
+    110,
+    111,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    133,
+    168,
+    216,
+    218,
+    219,
+    244,
+    246,
+    250,
+    251,
+    253,
+    262,
+    272,
+    274,
+    276,
+    277,
+    281,
+    282,
+    284,
+    286,
+    287,
+    289,
+    296,
+    297,
+    299,
+    300,
+    303,
+    75,
+    304,
+    125,
+    315,
+    144,
+    320,
+    331,
+    655,
+    656,
+    668,
+    669,
+    670,
+    147,
+    675,
+    676,
+    677,
+    691,
+    692,
+    693,
+    694,
+    122,
+    701,
+    702,
+    703,
+    704,
+    706,
+    156,
+    711,
+    712,
+    713,
+    159,
+    716,
+    258,
+    717,
+    56,
+    721,
+    72,
+    722,
+    256,
+    723,
+    724,
+    725,
+    726,
+    727,
+    728,
+    729,
+    730,
+    731,
+    732,
+    740,
+    91,
+    742,
+    744,
+    745,
+    302,
+    746,
+    752,
+    753,
+    754,
+    755,
+    773,
+    774,
+    775,
+    782,
+    790,
+    812,
+    813,
+    814,
+    815,
+    816,
+    818,
+    820,
+    821,
+    822,
+    823,
+    824,
+    825,
+    826,
+    827,
+    838,
+    840,
+    842,
+    843,
+    285,
+    876,
+    877,
+    879,
+    880,
+    882,
+    884,
+    886,
+    887,
+    243,
+    895,
+    911,
+    912,
+    913,
+    914,
+    915,
+    58,
+    920,
+    921,
+    926,
+    927,
+    934,
+    935,
+    942,
+    944,
+    945,
+    947,
+    958,
+    959,
+    960,
+    961,
+    962,
+    270,
+    963,
+    968,
+    305,
+    969,
+    971,
+    972,
+    977,
+    979,
+    980,
+    981,
+    301,
+    982,
+    983,
+    985,
+    986,
+    987,
+    988,
+    989,
+    991,
+    992,
+    993,
+    994,
+    995,
+    998,
+    999,
+    1000,
+    1025,
+    1026,
+    1027,
+    1028,
+    298,
+    1029,
+    1030,
+    1031,
+    1038,
+    1039,
+    150,
+    1040,
+    1041,
+    1042,
+    1043,
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    161,
+    1049,
+    1050,
+    1051,
+    1052,
+    1053,
+    841,
+    1054,
+    1055,
+    1056,
+    1057,
+    1058,
+    705,
+    1060,
+    833,
+    719
+  ],
+  "branches": {
+    "1": "\\src\\shared\\utils\\validation\\conditionValidation.spec.ts",
+    "2": "\\src\\shared\\constants\\conditions E",
+    "3": "\\src\\shared\\utils\\validation\\conditionValidation",
+    "4": "\\src\\shared\\utils\\common\\get E",
+    "5": "\\src\\shared\\constants\\finalFormFields",
+    "6": "\\src\\shared\\utils\\mesurment E",
+    "7": "\\src\\shared\\utils\\validation\\ValidationService E",
+    "8": "\\src\\shared\\constants\\operators",
+    "9": "\\src\\shared\\utils\\validation\\composeValidators",
+    "10": "\\src\\shared\\utils\\common\\common E",
+    "11": "\\src\\shared\\utils\\conditionsChecker E",
+    "12": "\\src\\FormBuilder\\Conditions\\utils",
+    "13": "\\src\\FormBuilder\\components\\DateTimePicker",
+    "14": "\\src\\FormBuilder\\components\\DateTimePicker\\DateTimePicker",
+    "15": "\\src\\shared\\components\\DropDown E",
+    "16": "\\src\\shared\\services\\localization E",
+    "17": "\\src\\shared\\constants\\dateTime E",
+    "18": "\\src\\shared\\components\\If E",
+    "19": "\\src\\shared\\components\\Form\\FieldGroup",
+    "20": "\\src\\shared\\components\\Form\\layout E",
+    "21": "\\src\\FormBuilder\\components\\DateTimePicker\\DatePickerCalendar",
+    "22": "\\src\\shared\\components\\Icon E",
+    "23": "\\src\\shared\\constants\\datePicker E",
+    "24": "\\src\\shared\\components\\DatesWrapperOuter E",
+    "25": "\\src\\shared\\components\\DatesWrapperInner E",
+    "26": "\\src\\shared\\components\\DateTimePicker\\utils E",
+    "27": "\\src\\shared\\components\\Form\\FormField E",
+    "28": "\\src\\FormBuilder\\utils\\dateTime E",
+    "29": "\\src\\FormBuilder\\components\\DateTimePicker\\DatePickerWrapper E",
+    "30": "\\src\\shared\\HOCS E",
+    "31": "\\src\\shared\\constants\\prop-types S",
+    "32": "\\src\\FormBuilder\\FieldErrorDecorators\\SelectDecorator E",
+    "33": "\\src\\FormBuilder\\Fields\\components\\Input E",
+    "34": "\\src\\shared\\utils\\validation\\validation R",
+    "35": "\\src\\shared\\FieldError\\useFieldErrorCallbacks E",
+    "36": "\\src\\FormBuilder\\Fields\\components\\DatePicker E",
+    "37": "\\src\\FormBuilder\\components\\DateTimePicker\\CustomDateTimePicker",
+    "38": "\\src\\shared\\redux\\modules\\modals\\actions E",
+    "39": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig E",
+    "40": "\\src\\shared\\utils\\emptyConditions E",
+    "41": "\\src\\FormBuilder\\Fields\\components\\List\\common E",
+    "42": "\\src\\shared\\utils\\placeholders E",
+    "43": "\\src\\shared\\constants\\conditions",
+    "44": "\\src\\shared\\utils\\common\\get",
+    "45": "\\src\\shared\\types\\utils\\Nullable",
+    "46": "\\src\\shared\\utils\\mesurment",
+    "47": "\\src\\shared\\constants\\regex",
+    "48": "\\src\\shared\\utils\\common\\common R",
+    "49": "\\src\\shared\\utils\\validation\\ValidationService",
+    "50": "\\src\\shared\\constants\\circs",
+    "51": "\\src\\shared\\constants\\addOnStatuses",
+    "52": "\\src\\shared\\constants\\errorMessages",
+    "53": "\\src\\shared\\constants\\formBuilder E",
+    "54": "\\src\\shared\\utils\\helpers E",
+    "55": "\\src\\shared\\utils\\fields E",
+    "56": "\\src\\shared\\utils\\formBuilderConverter",
+    "57": "\\src\\shared\\utils\\mappers E",
+    "58": "\\src\\shared\\utils\\filters",
+    "59": "\\src\\shared\\constants\\filters",
+    "60": "\\src\\shared\\constants\\common",
+    "61": "\\src\\shared\\utils\\filters\\constants E",
+    "62": "\\src\\shared\\utils\\filters\\group",
+    "63": "\\src\\shared\\utils\\string E",
+    "64": "\\src\\shared\\utils\\dataSource E",
+    "65": "\\src\\shared\\utils\\filters\\memoizedFilter",
+    "66": "\\src\\shared\\constants\\mapping",
+    "67": "\\src\\shared\\utils\\funcs E",
+    "68": "\\src\\shared\\constants\\validation",
+    "69": "\\src\\shared\\constants\\matching",
+    "70": "\\src\\shared\\constants\\addOnName",
+    "71": "\\src\\shared\\constants\\phoneInput",
+    "72": "\\src\\shared\\constants\\selectMenu",
+    "73": "\\src\\shared\\types\\FormBuilder\\components\\SelectMenu E",
+    "74": "\\src\\shared\\utils\\common\\common",
+    "75": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions",
+    "76": "\\src\\shared\\utils\\conditionsChecker",
+    "77": "\\src\\shared\\constants\\conditions R",
+    "78": "\\src\\shared\\components\\DropDown",
+    "79": "\\src\\shared\\components\\DropDown\\DropDownWrap",
+    "80": "\\src\\shared\\utils\\CreateComponent E",
+    "81": "\\src\\shared\\components\\DropDown\\DropDownSections",
+    "82": "\\src\\shared\\components\\DropDown\\DropDownReadout",
+    "83": "\\src\\shared\\services\\localization",
+    "84": "\\src\\shared\\constants\\dateTime",
+    "85": "\\src\\shared\\components\\If",
+    "86": "\\src\\shared\\components\\Form\\layout",
+    "87": "\\src\\shared\\components\\Form\\layout\\FormGroupPanel",
+    "88": "\\src\\shared\\components\\Form\\layout\\FormGroupRow",
+    "89": "\\src\\shared\\components\\Form\\layout\\FormGroupControl",
+    "90": "\\src\\shared\\components\\Form\\layout\\InputFormGroup",
+    "91": "\\src\\shared\\components\\Form\\layout\\FormGroup",
+    "92": "\\src\\shared\\components\\Form\\layout\\FormGroupLabel",
+    "93": "\\src\\shared\\components\\Form\\layout\\FormGroupLabelText",
+    "94": "\\src\\shared\\components\\Form\\layout\\FormGroupLabelOptional",
+    "95": "\\src\\shared\\components\\Form\\layout\\FormGroupLabelAction",
+    "96": "\\src\\shared\\components\\Form\\layout\\FormGroupText",
+    "97": "\\src\\shared\\components\\Form\\layout\\FormGroupMessage",
+    "98": "\\src\\shared\\components\\Form\\layout\\FormGroupAddOn",
+    "99": "\\src\\shared\\components\\Form\\layout\\FormGroupSubstrate",
+    "100": "\\src\\shared\\components\\Form\\layout\\FormColumn",
+    "101": "\\src\\shared\\components\\Form\\layout\\Form",
+    "102": "\\src\\shared\\components\\Form\\layout\\FormGroupSwitcherText",
+    "103": "\\src\\shared\\components\\Form\\layout\\FormGroupAction",
+    "104": "\\src\\shared\\components\\Form\\layout\\FormGroupActionBtn",
+    "105": "\\src\\shared\\components\\Form\\layout\\FormGroupIcon",
+    "106": "\\src\\shared\\components\\Form\\layout\\FormGroupActions",
+    "107": "\\src\\shared\\components\\Form\\layout\\FormGroupGrid",
+    "108": "\\src\\shared\\components\\Form\\layout\\FormGroupGridInner",
+    "109": "\\src\\shared\\components\\Form\\layout\\FormGroupGridCol",
+    "110": "\\src\\shared\\components\\Icon",
+    "111": "\\src\\shared\\constants\\datePicker",
+    "112": "\\src\\shared\\types\\utils\\ValueOf",
+    "113": "\\src\\shared\\components\\DatesWrapperOuter",
+    "114": "\\src\\shared\\components\\DatesWrapperInner",
+    "115": "\\src\\shared\\components\\DateTimePicker\\utils",
+    "116": "\\src\\shared\\components\\Form\\FormField",
+    "117": "\\src\\FormBuilder\\utils\\dateTime",
+    "118": "\\src\\FormBuilder\\components\\DateTimePicker\\DatePickerWrapper",
+    "119": "\\src\\FormBuilder\\components\\DateTimePicker\\Readout E",
+    "120": "\\src\\FormBuilder\\components\\DateTimePicker\\DateTimeTargetButton",
+    "121": "\\src\\shared\\utils\\events E",
+    "122": "\\src\\shared\\components\\Tooltip",
+    "123": "\\src\\shared\\hooks\\useForceUpdate",
+    "124": "\\src\\shared\\hooks\\useTooltip E",
+    "125": "\\src\\shared\\FieldError\\components\\FieldErrorComponent",
+    "126": "\\src\\shared\\FieldError\\useFieldErrorType",
+    "127": "\\src\\shared\\FieldError\\FieldErrorProvider E",
+    "128": "\\src\\shared\\FieldError\\components\\FieldErrorTooltipDecorator",
+    "129": "\\src\\shared\\FieldError\\components\\FieldErrorTooltip",
+    "130": "\\src\\shared\\FieldError\\constants",
+    "131": "\\src\\shared\\FieldError\\useFieldError",
+    "132": "\\src\\shared\\hooks\\usePrevious",
+    "133": "\\src\\shared\\HOCS",
+    "134": "\\src\\shared\\HOCS\\mapProps",
+    "135": "\\src\\shared\\utils\\HOCS\\addStaticFields",
+    "136": "\\src\\shared\\HOCS\\withHandleInputChange",
+    "137": "\\src\\shared\\utils\\debounce",
+    "138": "\\src\\shared\\HOCS\\withCloseModalOnEsc",
+    "139": "\\src\\shared\\constants\\keyCodes",
+    "140": "\\src\\shared\\HOCS\\withShallowEqualWithoutReactElements",
+    "141": "\\src\\shared\\HOCS\\withFinalForms",
+    "142": "\\src\\shared\\HOCS\\withHandleValuesOfChoice",
+    "143": "\\src\\shared\\services\\FormDataService E",
+    "144": "\\src\\shared\\utils\\memoize",
+    "145": "\\src\\shared\\utils\\toPlain",
+    "146": "\\src\\shared\\utils\\types",
+    "147": "\\src\\shared\\types\\FormBuilder\\components\\Choice",
+    "148": "\\src\\shared\\types\\utils\\Mutators",
+    "149": "\\src\\shared\\types\\FormBuilder\\components\\commonComponentProps E",
+    "150": "\\src\\FormBuilder\\HOCS\\withDefaultValue",
+    "151": "\\src\\shared\\redux\\modules\\initialValues\\actions E",
+    "152": "\\src\\shared\\redux\\modules\\loader\\selectors E",
+    "153": "\\src\\shared\\types\\utils\\FixMe",
+    "154": "\\src\\shared\\HOCS\\withFormValues",
+    "155": "\\src\\shared\\utils\\filters E",
+    "156": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider",
+    "157": "\\src\\shared\\hooks\\useMemoCompare",
+    "158": "\\src\\shared\\HOCS\\withVirtualOptions",
+    "159": "\\src\\shared\\services\\handleNotifications",
+    "160": "\\src\\shared\\constants\\httpStatuses",
+    "161": "\\src\\shared\\utils\\errorHandlers",
+    "162": "\\src\\shared\\utils\\deepmerge",
+    "163": "\\src\\shared\\constants\\ui",
+    "164": "\\src\\shared\\hooks\\useUpdateEffect",
+    "165": "\\src\\shared\\HOCS\\withFormDataService",
+    "166": "\\src\\shared\\HOCS\\withVirtualOptionsState",
+    "167": "\\src\\shared\\types\\FormBuilder\\components\\SelectOptions E",
+    "168": "\\src\\FormBuilder\\FieldErrorDecorators\\SelectDecorator",
+    "169": "\\src\\shared\\components\\Form\\controls",
+    "170": "\\src\\FormBuilder\\components\\Form\\controls\\Textarea\\TextareaAdapter",
+    "171": "\\src\\FormBuilder\\components\\Form\\controls\\Textarea\\Textarea E",
+    "172": "\\src\\shared\\FieldError\\components\\FieldErrorComponent E",
+    "173": "\\src\\FormBuilder\\components\\Form\\controls\\RadioGroupAdapter",
+    "174": "\\src\\FormBuilder\\components\\Form\\controls\\RadioGroupAdapter\\RadioGroupAdapter",
+    "175": "\\src\\FormBuilder\\components\\Form\\controls\\RadioGroupAdapter\\RadioGroup E",
+    "176": "\\src\\shared\\components\\Form\\controls\\CheckBoxAdapter",
+    "177": "\\src\\shared\\components\\Form\\controls\\CheckBoxAdapter\\CheckBoxAdapter",
+    "178": "\\src\\shared\\components\\Form\\controls\\CheckBoxAdapter\\CheckBox",
+    "179": "\\src\\shared\\components\\Form\\controls\\CheckBoxAdapter\\CheckboxToggle",
+    "180": "\\src\\shared\\constants\\checkboxTypes",
+    "181": "\\src\\shared\\utils\\memoize E",
+    "182": "\\src\\shared\\components\\Form\\controls\\InputAdapter",
+    "183": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputAdapter",
+    "184": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper E",
+    "185": "\\src\\shared\\utils\\validation\\validation E",
+    "186": "\\src\\shared\\components\\Form\\controls\\ValueSwitcher\\ValueSwitcher E",
+    "187": "\\src\\shared\\components\\Form\\controls\\Select\\Select E",
+    "188": "\\src\\shared\\components\\Form\\controls\\Select\\SelectAdapter",
+    "189": "\\src\\FormBuilder\\Events\\withEventListener E",
+    "190": "\\src\\shared\\constants\\eventsOfComponents E",
+    "191": "\\src\\shared\\HOCS\\withMultiChoicePlaceholders",
+    "192": "\\src\\shared\\containers\\PlaceholderSelector E",
+    "193": "\\src\\shared\\hooks\\useGlobalEvent",
+    "194": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectTagsView",
+    "195": "\\src\\shared\\types\\FormBuilder\\components\\Choice E",
+    "196": "\\src\\shared\\components\\SlTagsInput",
+    "197": "\\src\\shared\\components\\SlTagsInput\\SlTagsInput",
+    "198": "\\src\\shared\\components\\SlTagsInput\\SlTagsInputInner",
+    "199": "\\src\\shared\\components\\SlTagsInput\\SlTagsInputDoubleDecker",
+    "200": "\\src\\shared\\components\\SlTagsInput\\SlTagsInputList",
+    "201": "\\src\\shared\\constants\\placeholders",
+    "202": "\\src\\shared\\components\\Form\\FormWrappers E",
+    "203": "\\src\\FormBuilder\\components\\Form\\controls\\Button\\ButtonAdapter E",
+    "204": "\\src\\shared\\components\\Form\\controls\\RangeSliderAdapter",
+    "205": "\\src\\FormBuilder\\HOCS E",
+    "206": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input E",
+    "207": "\\src\\shared\\constants\\rangeSlider",
+    "208": "\\src\\shared\\components\\Form\\controls\\MultiplePicker",
+    "209": "\\src\\FormBuilder\\DisabledState\\DisabledStateContext\\withDisabledContext E",
+    "210": "\\src\\FormBuilder\\Fields\\components\\Choice\\withCommonChoiceFunctional E",
+    "211": "\\src\\shared\\components\\Form\\controls\\MultiplePicker\\MultiplePicker",
+    "212": "\\src\\shared\\components\\Form\\controls\\MultiplePicker\\MultiplePickerList",
+    "213": "\\src\\shared\\components\\Form\\controls\\MultiplePicker\\MultiplePickerItem",
+    "214": "\\src\\shared\\components\\Form\\controls\\WeekDayPicker\\Picker E",
+    "215": "\\src\\shared\\components\\Tooltip E",
+    "216": "\\src\\FormBuilder\\Fields\\components\\Input",
+    "217": "\\src\\FormBuilder\\FieldErrorDecorators\\InputDecorator",
+    "218": "\\src\\shared\\FieldError\\useFieldErrorCallbacks",
+    "219": "\\src\\FormBuilder\\Fields\\components\\DatePicker",
+    "220": "\\src\\FormBuilder\\components\\Form\\controls\\DateTimeAdapter",
+    "221": "\\src\\shared\\components\\SingleDatePicker",
+    "222": "\\src\\shared\\components\\SingleDatePicker\\SingleDatePicker",
+    "223": "\\src\\shared\\DataPlaceholders\\DataPlaceholders E",
+    "224": "\\src\\shared\\components\\SingleDatePicker\\CalendarFooter E",
+    "225": "\\src\\shared\\components\\SingleDatePicker\\DateIcon",
+    "226": "\\src\\shared\\components\\TagItemWithTooltip E",
+    "227": "\\src\\shared\\types\\FormBuilder\\placeholders R",
+    "228": "\\src\\FormBuilder\\components\\DayOfMonthPicker\\DayOfMonthPicker",
+    "229": "\\src\\FormBuilder\\Fields\\components\\Tags\\TagsInput\\utils N",
+    "230": "\\src\\FormBuilder\\components\\DayOfMonthPicker\\DayOfMonthCalendar",
+    "231": "\\src\\FormBuilder\\components\\DayOfMonthPicker\\DayOfMonthCalendarTable",
+    "232": "\\src\\FormBuilder\\components\\DayOfMonthPicker\\DayOfMonthCalendarDay",
+    "233": "\\src\\FormBuilder\\HOCS\\withNamedMemo",
+    "234": "\\src\\FormBuilder\\components\\DayOfMonthPicker\\DayOfMonthPicker R",
+    "235": "\\src\\FormBuilder\\components\\DayOfMonthPicker\\DayOfMonthCalendar R",
+    "236": "\\src\\shared\\types\\FormBuilder\\placeholders E",
+    "237": "\\src\\FormBuilder\\FieldErrorDecorators\\SelectDecorator R",
+    "238": "\\src\\FormBuilder\\Fields\\components\\TimePicker",
+    "239": "\\src\\FormBuilder\\Fields\\components\\TimePicker\\TimePicker",
+    "240": "\\src\\shared\\components\\Form\\controls\\ValueSwitcher\\MultiSwitcher",
+    "241": "\\src\\shared\\components\\Form\\controls\\ValueSwitcher\\ValueSwitcherOption",
+    "242": "\\src\\shared\\components\\MultiSwitcher E",
+    "243": "\\src\\shared\\components\\Form\\layout\\FormGroupRowInner",
+    "244": "\\src\\shared\\redux\\modules\\modals\\actions",
+    "245": "\\src\\shared\\redux\\modules\\initialValues\\types",
+    "246": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig",
+    "247": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\FormBuilderConfigProvider E",
+    "248": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\withUserSettings",
+    "249": "\\src\\FormBuilder\\FormBuilderForm\\FormBuilderConfig\\withSlateAddOnId",
+    "250": "\\src\\shared\\utils\\emptyConditions",
+    "251": "\\src\\FormBuilder\\Fields\\components\\List\\common",
+    "252": "\\src\\shared\\constants\\fields\\list",
+    "253": "\\src\\shared\\utils\\placeholders",
+    "254": "\\src\\shared\\constants\\icons\\fieldTypeIcons",
+    "255": "\\src\\shared\\components\\Form\\controls\\Select\\constants",
+    "256": "\\src\\shared\\types\\entities\\Document",
+    "257": "\\src\\shared\\types\\entities\\DocumentField",
+    "258": "\\src\\shared\\types\\entities\\FieldsSettingsShema",
+    "259": "\\src\\shared\\constants\\icons\\buttonIcons",
+    "260": "\\src\\FormBuilder\\constants\\renderOptions",
+    "261": "\\src\\shared\\types\\utils\\Placeholders",
+    "262": "\\src\\shared\\constants\\formBuilder",
+    "263": "\\src\\shared\\constants\\icons\\iconByLayoutType",
+    "264": "\\src\\shared\\types\\FormBuilder\\components\\source",
+    "265": "\\src\\shared\\utils\\finalFormDecorators",
+    "266": "\\src\\shared\\utils\\finalFormDecorators\\conditionsDecorator",
+    "267": "\\src\\shared\\utils\\finalFormDecorators\\utils E",
+    "268": "\\src\\shared\\types\\FormBuilder\\Conditions",
+    "269": "\\src\\shared\\utils\\finalFormDecorators\\circsDecorator",
+    "270": "\\src\\shared\\utils\\operators",
+    "271": "\\src\\shared\\utils\\setFieldDataBatch",
+    "272": "\\src\\shared\\utils\\helpers",
+    "273": "\\src\\shared\\constants\\resources",
+    "274": "\\src\\shared\\utils\\fields",
+    "275": "\\src\\shared\\utils\\getSplitSettingName",
+    "276": "\\src\\shared\\utils\\mappers",
+    "277": "\\src\\shared\\utils\\filters\\constants",
+    "278": "\\src\\shared\\utils\\filters\\circs",
+    "279": "\\src\\shared\\utils\\filters\\mapping",
+    "280": "\\src\\shared\\utils\\filters\\matching",
+    "281": "\\src\\shared\\utils\\string",
+    "282": "\\src\\shared\\utils\\dataSource",
+    "283": "\\src\\shared\\utils\\findObjectInArrayByProperty",
+    "284": "\\src\\shared\\utils\\funcs",
+    "285": "\\src\\shared\\constants\\errors",
+    "286": "\\src\\shared\\types\\FormBuilder\\components\\SelectMenu",
+    "287": "\\src\\shared\\utils\\CreateComponent",
+    "288": "\\src\\shared\\utils\\common\\filterObject",
+    "289": "\\src\\FormBuilder\\components\\DateTimePicker\\Readout",
+    "290": "\\src\\FormBuilder\\components\\DateTimePicker\\Readout\\Readout",
+    "291": "\\src\\FormBuilder\\components\\DateTimePicker\\Readout\\ReadoutInner",
+    "292": "\\src\\FormBuilder\\components\\DateTimePicker\\Readout\\ReadoutClearButton",
+    "293": "\\src\\FormBuilder\\components\\DateTimePicker\\Readout\\ReadoutClearIcon",
+    "294": "\\src\\FormBuilder\\components\\DateTimePicker\\Readout\\ReadoutIcon",
+    "295": "\\src\\FormBuilder\\components\\DateTimePicker\\Readout\\ReadoutValue",
+    "296": "\\src\\shared\\utils\\events",
+    "297": "\\src\\shared\\hooks\\useTooltip",
+    "298": "\\src\\shared\\hooks\\useRefWithCallback",
+    "299": "\\src\\shared\\FieldError\\FieldErrorProvider",
+    "300": "\\src\\shared\\services\\FormDataService",
+    "301": "\\src\\shared\\services\\FormDataService\\FormDataService",
+    "302": "\\src\\shared\\services\\FormDataService\\FormDataContext",
+    "303": "\\src\\shared\\types\\FormBuilder\\components\\commonComponentProps",
+    "304": "\\src\\FormBuilder\\components\\Form\\controls\\Textarea\\Textarea",
+    "305": "\\src\\shared\\components\\Form\\controls\\DataValueInput",
+    "306": "\\src\\shared\\components\\Form\\controls\\DataValueInput\\DataValueInput",
+    "307": "\\src\\shared\\constants\\dataTags",
+    "308": "\\src\\shared\\components\\FieldDropDown",
+    "309": "\\src\\shared\\components\\FieldDropDown\\FieldDropDown E",
+    "310": "\\src\\shared\\components\\FieldDropDown\\FieldDropDownContent E",
+    "311": "\\src\\shared\\components\\Form\\controls\\DataValueInput\\DataValueInputAction",
+    "312": "\\src\\shared\\components\\OpenAddressBookButton E",
+    "313": "\\src\\shared\\types\\entities\\FieldsSettingsShema E",
+    "314": "\\src\\shared\\redux\\modules\\placeholders\\selectors E",
+    "315": "\\src\\FormBuilder\\components\\Form\\controls\\RadioGroupAdapter\\RadioGroup",
+    "316": "\\src\\FormBuilder\\components\\Form\\controls\\RadioGroupAdapter\\RadioButtonAdapter",
+    "317": "\\src\\FormBuilder\\components\\Form\\controls\\RadioGroupAdapter\\RadioButton",
+    "318": "\\src\\FormBuilder\\components\\Form\\controls\\RadioGroupAdapter\\RadioButtonInput",
+    "319": "\\src\\FormBuilder\\components\\Form\\controls\\RadioGroupAdapter\\CompositeRadioButton",
+    "320": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper",
+    "321": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\PhoneInput E",
+    "322": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders E",
+    "323": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholdersSwitchable",
+    "324": "\\src\\shared\\components\\FieldValue",
+    "325": "\\src\\shared\\components\\FieldValue\\FieldValue",
+    "326": "\\src\\shared\\components\\FieldValue\\FieldValueButtonAdd E",
+    "327": "\\src\\shared\\components\\FieldValue\\FieldValueButton E",
+    "328": "\\src\\shared\\components\\FieldValue\\FieldValueButtonBody E",
+    "329": "\\src\\shared\\components\\FieldValue\\FieldValueButtonText E",
+    "330": "\\src\\shared\\utils\\dataValue",
+    "331": "\\src\\shared\\utils\\validation\\validation",
+    "332": "\\src\\shared\\utils\\api\\dataTransformers",
+    "333": "\\src\\shared\\constants\\events",
+    "334": "\\src\\shared\\utils\\status E",
+    "335": "\\src\\shared\\constants\\addOnsVersionStatuses",
+    "336": "\\src\\shared\\utils\\layoutComponentsUtils",
+    "337": "\\src\\shared\\types\\FormBuilder\\Layout E",
+    "338": "\\src\\shared\\types\\entities\\FlowDiagramConfig E",
+    "339": "\\src\\FormBuilder\\EasyAutomation",
+    "340": "\\src\\shared\\redux\\modules\\slateAddons\\actions E",
+    "341": "\\src\\shared\\redux\\modules\\easyAutomationAddOns\\selectors E",
+    "342": "\\src\\FormBuilder\\EasyAutomation\\EasyAddonWrapper",
+    "343": "\\src\\shared\\components\\Form\\layout\\FormGroup E",
+    "344": "\\src\\shared\\types\\entities\\SlateAddOnApi E",
+    "345": "\\src\\FormBuilder\\utils\\EasyAutomationAddonsService",
+    "346": "\\src\\FormBuilder\\EasyAutomation\\index E",
+    "347": "\\src\\FormBuilder\\EasyAutomation\\EasyAddonForm\\EasyAddonFormContainer",
+    "348": "\\src\\shared\\utils\\EventEmitter",
+    "349": "\\src\\shared\\utils\\formBuilderConverter E",
+    "350": "\\src\\FormBuilder\\Events\\EventContext\\EventContext E",
+    "351": "\\src\\FormBuilder\\EasyAutomation\\EasyAddonForm\\EasyAddonForm",
+    "352": "\\src\\shared\\services\\FormDataService\\FormDataContext E",
+    "353": "\\src\\FormBuilder\\Layouts\\LayoutFieldItems",
+    "354": "\\src\\FormBuilder\\components\\SettingsFormGroup",
+    "355": "\\src\\FormBuilder\\utils\\fieldComponentUtils",
+    "356": "\\src\\FormBuilder\\Fields\\components",
+    "357": "\\src\\FormBuilder\\Fields\\components\\FieldsMapping",
+    "358": "\\src\\FormBuilder\\Fields\\components\\FieldsMapping\\FieldsMapping",
+    "359": "\\src\\shared\\redux\\modules\\flowConfigs\\selectors E",
+    "360": "\\src\\FormBuilder\\components\\Conditions E",
+    "361": "\\src\\FormBuilder\\Fields\\components\\FieldsMapping\\FieldSelector E",
+    "362": "\\src\\FormBuilder\\components\\Form\\ConditionListArrow E",
+    "363": "\\src\\FormBuilder\\Fields\\components\\FieldsMapping\\FieldsMappingConditionItem",
+    "364": "\\src\\shared\\components\\SlConditionList E",
+    "365": "\\src\\FormBuilder\\Fields\\FieldContext\\FieldContext E",
+    "366": "\\src\\FormBuilder\\components\\Conditions\\ConditionListColumn E",
+    "367": "\\src\\shared\\components\\Loader E",
+    "368": "\\src\\FormBuilder\\Fields\\components\\Attachment",
+    "369": "\\src\\FormBuilder\\store\\modules\\addOnResources\\actions E",
+    "370": "\\src\\FormBuilder\\Fields\\components\\Attachment\\AttachmentAdapter",
+    "371": "\\src\\FormBuilder\\components\\Form\\controls\\Attachment",
+    "372": "\\src\\FormBuilder\\components\\Form\\controls\\Attachment\\AttachmentWithFile",
+    "373": "\\src\\shared\\components\\Panel E",
+    "374": "\\src\\FormBuilder\\components\\Form\\controls\\Attachment\\EmptyAttachment",
+    "375": "\\src\\FormBuilder\\Fields\\components\\Attachment\\DownloadLink",
+    "376": "\\src\\shared\\redux\\modules\\attachments\\selectors",
+    "377": "\\src\\shared\\redux\\modules\\loader\\reducer E",
+    "378": "\\src\\shared\\redux\\modules\\attachments\\actions E",
+    "379": "\\src\\FormBuilder\\Fields\\components\\Checkbox",
+    "380": "\\src\\shared\\components\\Form\\controls R",
+    "381": "\\src\\FormBuilder\\Fields\\components\\Tags",
+    "382": "\\src\\FormBuilder\\Fields\\components\\Tags\\TagsInputAdapter",
+    "383": "\\src\\FormBuilder\\Fields\\components\\Tags\\TagsInput E",
+    "384": "\\src\\FormBuilder\\Fields\\components\\Choice",
+    "385": "\\src\\shared\\services\\BulkFormChangeService\\withFinalFormBulkChange",
+    "386": "\\src\\shared\\services\\BulkFormChangeService\\BulkChangeServiceContext E",
+    "387": "\\src\\FormBuilder\\Fields\\components\\Choice\\Choice",
+    "388": "\\src\\FormBuilder\\constants\\iconByResourceType E",
+    "389": "\\src\\FormBuilder\\HOCS\\withFinalFormLessReRender",
+    "390": "\\src\\shared\\hooks\\useDeepComparsionMemo",
+    "391": "\\src\\FormBuilder\\Fields\\components\\ValueSwitcher",
+    "392": "\\src\\FormBuilder\\FieldErrorDecorators\\ValueSwitcherDecorator",
+    "393": "\\src\\shared\\components\\Form\\controls\\ValueSwitcher",
+    "394": "\\src\\shared\\components\\Form\\controls\\ValueSwitcher\\ValueSwitcherControl",
+    "395": "\\src\\FormBuilder\\Fields\\components\\SeparatedDropDowns",
+    "396": "\\src\\FormBuilder\\components\\Form\\controls\\SeparatedDropDowns",
+    "397": "\\src\\FormBuilder\\Fields\\components\\Matching\\DropDownSelector E",
+    "398": "\\src\\FormBuilder\\Fields\\components\\SeparatedGroups",
+    "399": "\\src\\FormBuilder\\Fields\\components\\SeparatedGroups\\SeparatedGroups",
+    "400": "\\src\\FormBuilder\\Fields\\components\\Matching\\SeparatedDropDowns E",
+    "401": "\\src\\FormBuilder\\Fields\\components\\Tabs",
+    "402": "\\src\\FormBuilder\\Fields\\components\\Tabs\\TabsAdapter",
+    "403": "\\src\\FormBuilder\\components\\Form\\controls\\Tabs",
+    "404": "\\src\\FormBuilder\\components\\Form\\controls\\Tabs\\Tabs",
+    "405": "\\src\\FormBuilder\\Fields\\components\\TagsChoice",
+    "406": "\\src\\FormBuilder\\Fields\\components\\TagsChoice\\TagsChoice",
+    "407": "\\src\\FormBuilder\\Fields\\components\\TagsChoice\\TagsChoiceEmptySearch",
+    "408": "\\src\\FormBuilder\\Fields\\components\\TagsChoice\\TagsChoiceList",
+    "409": "\\src\\shared\\components\\Form\\controls\\InlineSelect",
+    "410": "\\src\\shared\\components\\Form\\controls\\InlineSelect\\InlineSelect",
+    "411": "\\src\\FormBuilder\\Fields\\FieldContext\\AddToFieldContext E",
+    "412": "\\src\\FormBuilder\\HOCS\\withOmitFormValues",
+    "413": "\\src\\FormBuilder\\Fields\\components\\IntegrationButton",
+    "414": "\\src\\FormBuilder\\Fields\\components\\IntegrationButton\\IntegrationButton",
+    "415": "\\src\\shared\\services\\handleNotifications E",
+    "416": "\\src\\FormBuilder\\ReadOnly\\ReadOnlyContext\\ReadOnlyProvider E",
+    "417": "\\src\\shared\\redux\\modules\\connections\\constants",
+    "418": "\\src\\shared\\constants\\connections",
+    "419": "\\src\\FormBuilder\\Fields\\components\\IntegrationButton\\IntegrationButtonPanel",
+    "420": "\\src\\shared\\components\\SettingPanel",
+    "421": "\\src\\shared\\components\\SettingPanel\\SettingPanel",
+    "422": "\\src\\shared\\components\\SettingPanel\\SettingPanelDragWrap",
+    "423": "\\src\\shared\\components\\SettingPanel\\SettingPanelDragIcon",
+    "424": "\\src\\shared\\components\\SettingPanel\\SettingPanelIcon",
+    "425": "\\src\\shared\\components\\SettingPanel\\SettingPanelDetails",
+    "426": "\\src\\shared\\components\\SettingPanel\\SettingPanelTitle",
+    "427": "\\src\\shared\\components\\SettingPanel\\SettingPanelSwitcher",
+    "428": "\\src\\shared\\components\\SettingPanel\\SettingPanelDescription",
+    "429": "\\src\\shared\\components\\SettingPanel\\SettingPanelAction",
+    "430": "\\src\\shared\\components\\SettingPanel\\SettingPanelBadge",
+    "431": "\\src\\shared\\components\\SettingPanel\\SettingPanelHint E",
+    "432": "\\src\\shared\\components\\SettingPanel\\SettingPanelHintIcon E",
+    "433": "\\src\\shared\\components\\SettingPanel\\SettingPanelHintText E",
+    "434": "\\src\\shared\\components\\SettingPanel\\SettingPanelHintAction E",
+    "435": "\\src\\shared\\components\\SettingPanel\\SettingPanelHintUnified",
+    "436": "\\src\\shared\\types\\entities\\FlowAdminStore E",
+    "437": "\\src\\FormBuilder\\Fields\\components\\IntegrationButton\\RequestAccessButton",
+    "438": "\\src\\FormBuilder\\Fields\\components\\IntegrationButton\\IntegrationButtonOptionList",
+    "439": "\\src\\shared\\components\\Option E",
+    "440": "\\src\\shared\\components\\MoreActionsList",
+    "441": "\\src\\shared\\constants\\tutorial",
+    "442": "\\src\\FormBuilder\\Fields\\components\\IntegrationButton\\IntegrationReadOnlyChecker",
+    "443": "\\src\\FormBuilder\\store\\modules\\addOnResources\\selectors E",
+    "444": "\\src\\shared\\redux\\modules\\services\\selectors",
+    "445": "\\src\\shared\\types\\entities\\ServiceStore E",
+    "446": "\\src\\shared\\redux\\utils E",
+    "447": "\\src\\shared\\redux\\modules\\services\\actions",
+    "448": "\\src\\shared\\redux\\modules\\loader\\actions E",
+    "449": "\\src\\shared\\api E",
+    "450": "\\src\\shared\\constants\\errors E",
+    "451": "\\src\\shared\\redux\\modules\\connections\\actions",
+    "452": "\\src\\shared\\utils\\api\\loadAll",
+    "453": "\\src\\shared\\utils\\action",
+    "454": "\\src\\shared\\utils\\accountsModalConnector",
+    "455": "\\src\\shared\\utils\\CallbackStorage",
+    "456": "\\src\\shared\\redux\\modules\\common\\actions E",
+    "457": "\\src\\shared\\utils\\api\\dataTransformers R",
+    "458": "\\src\\shared\\services\\handleIntegration",
+    "459": "\\src\\shared\\api\\serviceAccounts E",
+    "460": "\\src\\shared\\constants\\serverErrors",
+    "461": "\\src\\shared\\types\\entities\\ServiceAccountApi E",
+    "462": "\\src\\shared\\redux\\modules\\flowAdmins\\actions",
+    "463": "\\src\\shared\\api\\flowAdmins",
+    "464": "\\src\\shared\\utils\\api\\client",
+    "465": "\\src\\shared\\utils\\api\\processParams E",
+    "466": "\\src\\shared\\redux\\modules\\flowAdmins\\selectors",
+    "467": "\\src\\shared\\redux\\modules\\user\\selectors E",
+    "468": "\\src\\shared\\redux\\modules\\flowAdmins\\reducers E",
+    "469": "\\src\\shared\\types\\entities\\UserApi E",
+    "470": "\\src\\FormBuilder\\Fields\\components\\DoubleDecker",
+    "471": "\\src\\FormBuilder\\components\\Form\\controls\\DoubleDecker",
+    "472": "\\src\\FormBuilder\\components\\Form\\controls\\DoubleDecker\\DoubleDeckerAdapter",
+    "473": "\\src\\FormBuilder\\components\\Form\\controls\\DoubleDecker\\DoubleDecker E",
+    "474": "\\src\\shared\\components\\Form\\layout\\FormGroupRowInner E",
+    "475": "\\src\\FormBuilder\\Fields\\components\\Alert",
+    "476": "\\src\\shared\\utils\\sanitizeHTML",
+    "477": "\\src\\FormBuilder\\Fields\\components\\Sequence",
+    "478": "\\src\\FormBuilder\\Fields\\components\\Sequence\\SequenceAdapter",
+    "479": "\\src\\FormBuilder\\Fields\\components\\Sequence\\Sequence",
+    "480": "\\src\\FormBuilder\\Fields\\components\\Sequence\\SequenceItem E",
+    "481": "\\src\\FormBuilder\\Fields\\components\\Sequence\\SequenceList",
+    "482": "\\src\\FormBuilder\\Fields\\components\\Matching",
+    "483": "\\src\\FormBuilder\\Fields\\components\\Matching\\Matching",
+    "484": "\\src\\FormBuilder\\DisabledState\\DisabledStateContext\\DisabledStateProvider E",
+    "485": "\\src\\FormBuilder\\Fields\\components\\Matching\\MatchingElement",
+    "486": "\\src\\FormBuilder\\DisabledState\\disabledState E",
+    "487": "\\src\\FormBuilder\\Fields\\components\\Matching\\MatchingGroup\\MatchingConditionItem",
+    "488": "\\src\\FormBuilder\\Fields\\components\\Matching\\MatchingGroup\\MatchingConditionWithElement",
+    "489": "\\src\\FormBuilder\\Fields\\components\\Matching\\MatchingList",
+    "490": "\\src\\FormBuilder\\Fields\\components\\Matching\\MatchingGroup",
+    "491": "\\src\\FormBuilder\\Fields\\components\\Matching\\MatchingGroup\\MatchingGroupSplit",
+    "492": "\\src\\FormBuilder\\components\\Conditions\\RemoveButton E",
+    "493": "\\src\\FormBuilder\\Fields\\components\\Matching\\MatchingGroup\\MatchingGroupSingle",
+    "494": "\\src\\FormBuilder\\Fields\\components\\Matching\\parts\\AddMatchingGroupButton",
+    "495": "\\src\\shared\\utils\\defaultValues E",
+    "496": "\\src\\FormBuilder\\Fields\\components\\Matching\\parts\\SIngleMatchingGroupOperator",
+    "497": "\\src\\FormBuilder\\Fields\\components\\Matching\\parts\\SingleMatchingGroupSelect",
+    "498": "\\src\\FormBuilder\\Fields\\components\\Mapping",
+    "499": "\\src\\FormBuilder\\Fields\\components\\Mapping\\Mapping",
+    "500": "\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\viewMode E",
+    "501": "\\src\\shared\\components\\SearchInput\\parts E",
+    "502": "\\src\\FormBuilder\\Fields\\components\\Mapping\\MappingGroupList",
+    "503": "\\src\\FormBuilder\\Fields\\components\\Mapping\\MappingGroup",
+    "504": "\\src\\FormBuilder\\Fields\\components\\Mapping\\MappingGroup\\MappingGroup",
+    "505": "\\src\\FormBuilder\\Fields\\components\\Mapping\\FieldSelector",
+    "506": "\\src\\FormBuilder\\Fields\\components\\Mapping\\FieldSelector\\SelectFieldsButton",
+    "507": "\\src\\FormBuilder\\Resources\\withFormBuilderContext E",
+    "508": "\\src\\FormBuilder\\Resources\\withResources E",
+    "509": "\\src\\FormBuilder\\components\\SelectFillableFieldsDropDown",
+    "510": "\\src\\FormBuilder\\components\\SelectFillableFieldsDropDown\\SelectFillableFieldsDropDown",
+    "511": "\\src\\FormBuilder\\store\\modules\\dataSource\\selectors E",
+    "512": "\\src\\FormBuilder\\Fields\\components\\Mapping\\FieldSelector\\TargetButton",
+    "513": "\\src\\FormBuilder\\Fields\\components\\Mapping\\parts E",
+    "514": "\\src\\FormBuilder\\Fields\\components\\Mapping\\MappingList",
+    "515": "\\src\\FormBuilder\\Fields\\components\\Mapping\\MappingElement",
+    "516": "\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers E",
+    "517": "\\src\\FormBuilder\\components\\TriggerHiddenField",
+    "518": "\\src\\shared\\constants\\fieldDependencies",
+    "519": "\\src\\FormBuilder\\Fields\\components\\Mapping\\SmartMapping",
+    "520": "\\src\\FormBuilder\\Fields\\components\\Mapping\\SmartMapping\\SmartMapping",
+    "521": "\\src\\FormBuilder\\Resources\\useSelectDatasourceOptions",
+    "522": "\\src\\FormBuilder\\Resources\\FieldsResourceContext",
+    "523": "\\src\\FormBuilder\\Fields\\components\\Mapping\\SmartMapping\\SmartMappingCollapsed",
+    "524": "\\src\\FormBuilder\\Fields\\components\\Mapping\\SmartMapping\\SmartMappingOpen",
+    "525": "\\src\\shared\\components\\Confirmation E",
+    "526": "\\src\\shared\\components\\Headline E",
+    "527": "\\src\\FormBuilder\\Fields\\components\\Mapping\\MappingGroup\\MappingGroupItem",
+    "528": "\\src\\FormBuilder\\Fields\\components\\Mapping\\AutoConfigureElements",
+    "529": "\\src\\FormBuilder\\Fields\\components\\Mapping\\AutoConfigureElements\\AutoConfigureElements",
+    "530": "\\src\\FormBuilder\\Fields\\components\\Mapping\\AutoConfigureElements\\AutoConfigureElementsCollapsed",
+    "531": "\\src\\FormBuilder\\Fields\\components\\Mapping\\AutoConfigureElements\\AutoConfigureElementsExpanded",
+    "532": "\\src\\FormBuilder\\Fields\\components\\Tree",
+    "533": "\\src\\FormBuilder\\Fields\\components\\Tree\\Tree",
+    "534": "\\src\\FormBuilder\\Fields\\components\\Tree\\TreeContext E",
+    "535": "\\src\\shared\\constants\\tree",
+    "536": "\\src\\FormBuilder\\Fields\\components\\Tree\\TreeNode\\TreeNode",
+    "537": "\\src\\shared\\utils\\outcomingDataConverter E",
+    "538": "\\src\\FormBuilder\\Fields\\components\\Tree\\TreeNode\\EnhancedTreeNode",
+    "539": "\\src\\FormBuilder\\Fields\\components\\Tree\\TreeNode\\TreeNodeInfoBox",
+    "540": "\\src\\FormBuilder\\components\\InfoBox",
+    "541": "\\src\\FormBuilder\\components\\InfoBox\\InfoBox",
+    "542": "\\src\\FormBuilder\\components\\InfoBox\\InfoBoxText",
+    "543": "\\src\\shared\\components\\TreeRelations\\TreeRelationsWrap",
+    "544": "\\src\\FormBuilder\\Fields\\components\\Button",
+    "545": "\\src\\FormBuilder\\Fields\\components\\MultipleFilePicker",
+    "546": "\\src\\FormBuilder\\Fields\\components\\MultipleFilePicker\\MultipleFilePicker",
+    "547": "\\src\\FormBuilder\\components\\SlDocList E",
+    "548": "\\src\\FormBuilder\\Fields\\components\\MultipleFilePicker\\parts\\MultipleFilePickerActions",
+    "549": "\\src\\FormBuilder\\Fields\\components\\MultipleFilePicker\\parts\\MultipleFilePickerItem",
+    "550": "\\src\\shared\\utils\\filePicker E",
+    "551": "\\src\\FormBuilder\\Fields\\components\\Circs",
+    "552": "\\src\\FormBuilder\\Fields\\components\\Circs\\Circs",
+    "553": "\\src\\shared\\utils\\incomingDataConverter E",
+    "554": "\\src\\FormBuilder\\components\\Circs\\CircsListItems",
+    "555": "\\src\\FormBuilder\\components\\Conditions\\index",
+    "556": "\\src\\FormBuilder\\components\\Conditions\\ConditionList E",
+    "557": "\\src\\FormBuilder\\components\\Conditions\\ConditionListItem E",
+    "558": "\\src\\FormBuilder\\components\\Circs\\CommonCircsItem",
+    "559": "\\src\\shared\\components\\SlConditionList\\index E",
+    "560": "\\src\\FormBuilder\\Fields\\components\\Circs\\CircsElement",
+    "561": "\\src\\FormBuilder\\Fields\\FieldContext\\index",
+    "562": "\\src\\shared\\utils\\operators E",
+    "563": "\\src\\FormBuilder\\Fields\\components\\Circs\\utils",
+    "564": "\\src\\FormBuilder\\Fields\\components\\FilePicker",
+    "565": "\\src\\FormBuilder\\Fields\\components\\FilePicker\\FilePicker",
+    "566": "\\src\\shared\\components\\AddItemWrapper",
+    "567": "\\src\\FormBuilder\\Fields\\components\\FilePicker\\parts\\FilePickerButton",
+    "568": "\\src\\shared\\constants\\filePicker",
+    "569": "\\src\\FormBuilder\\Fields\\components\\FilePicker\\parts\\FilePickerItem",
+    "570": "\\src\\FormBuilder\\components\\SlPanel E",
+    "571": "\\src\\FormBuilder\\Fields\\components\\FilePicker\\parts\\FilePickerItemDetails",
+    "572": "\\src\\shared\\components\\InfoText E",
+    "573": "\\src\\FormBuilder\\Fields\\components\\FilePicker\\parts\\FilePickerItemFieldValue",
+    "574": "\\src\\shared\\components\\Form\\controls\\DataValueInput E",
+    "575": "\\src\\FormBuilder\\Fields\\components\\SwitchableElement",
+    "576": "\\src\\FormBuilder\\Fields\\components\\SwitchableElement\\SwitchableElement",
+    "577": "\\src\\FormBuilder\\Fields\\FieldContext E",
+    "578": "\\src\\FormBuilder\\Fields\\components\\SwitchableElement\\SwitchableElementDropdown",
+    "579": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectMenu E",
+    "580": "\\src\\FormBuilder\\Fields\\components\\List",
+    "581": "\\src\\FormBuilder\\Fields\\components\\List\\List",
+    "582": "\\src\\shared\\types\\fields\\list\\AddBlockButton",
+    "583": "\\src\\shared\\types\\fields\\dto\\AddBlockButtonDTO",
+    "584": "\\src\\shared\\types\\fields\\list\\NumerationOfBlock",
+    "585": "\\src\\shared\\types\\fields\\dto\\NumerationOfBlockDTO",
+    "586": "\\src\\shared\\types\\fields\\list\\RemoveBlockButton E",
+    "587": "\\src\\shared\\types\\utils\\EventCallback",
+    "588": "\\src\\FormBuilder\\Fields\\components\\List\\ListGroup",
+    "589": "\\src\\shared\\hooks\\useDependenciesStateMap",
+    "590": "\\src\\shared\\utils\\dependeciesFactories E",
+    "591": "\\src\\shared\\experiments\\hooks\\useExperiment",
+    "592": "\\src\\shared\\experiments\\constants",
+    "593": "\\src\\shared\\components\\GroupControl",
+    "594": "\\src\\FormBuilder\\Fields\\components\\List\\ListRemoveButton",
+    "595": "\\src\\shared\\HOCS\\withConfirmationModal",
+    "596": "\\src\\shared\\api\\placeholders E",
+    "597": "\\src\\FormBuilder\\utils\\propsFromRenderOptions",
+    "598": "\\src\\FormBuilder\\constants\\tags",
+    "599": "\\src\\shared\\utils\\fieldMappers E",
+    "600": "\\src\\shared\\constants\\selectMenu E",
+    "601": "\\src\\FormBuilder\\components\\Group",
+    "602": "\\src\\shared\\types\\FormBuilder\\components\\dependencyState",
+    "603": "\\src\\shared\\components\\Form\\layout\\FormGroupGrouping",
+    "604": "\\src\\shared\\components\\Form\\layout\\FormGroupGroupingItem",
+    "605": "\\src\\shared\\services\\FormDataService\\FormDataService E",
+    "606": "\\src\\FormBuilder\\utils\\group",
+    "607": "\\src\\FormBuilder\\Events\\eventsProcessing",
+    "608": "\\src\\FormBuilder\\SharedDataSource",
+    "609": "\\src\\FormBuilder\\SharedDataSource\\SharedDataSource",
+    "610": "\\src\\shared\\constants\\dataSource",
+    "611": "\\src\\shared\\types\\FormBuilder\\components\\DataSource E",
+    "612": "\\src\\shared\\types\\FormBuilder\\FieldsValidity",
+    "613": "\\src\\FormBuilder\\store\\modules\\dataSource\\actions",
+    "614": "\\src\\FormBuilder\\utils\\ValuesStoreService",
+    "615": "\\src\\shared\\utils\\resourceFieldsErrorHandler E",
+    "616": "\\src\\shared\\services\\UIMessageStoreService E",
+    "617": "\\src\\FormBuilder\\store\\modules\\dataSource\\reducer E",
+    "618": "\\src\\shared\\types\\entities\\SlateAddonStore E",
+    "619": "\\src\\shared\\types\\FormBuilder\\EventProcessing",
+    "620": "\\src\\shared\\types\\entities\\ViewMode",
+    "621": "\\src\\shared\\components\\ViewMode",
+    "622": "\\src\\shared\\components\\ViewMode\\ViewModeWrapper",
+    "623": "\\src\\shared\\components\\ViewMode\\ViewModeComponent",
+    "624": "\\src\\shared\\utils\\viewMode",
+    "625": "\\src\\shared\\components\\ViewMode\\ViewModeComponentSelector",
+    "626": "\\src\\shared\\components\\ViewMode\\Views\\ViewBoldText",
+    "627": "\\src\\shared\\components\\ViewMode\\Views\\ViewLink",
+    "628": "\\src\\shared\\components\\ViewMode\\Views\\ViewTags E",
+    "629": "\\src\\shared\\components\\ViewMode\\Views\\ViewTemplate",
+    "630": "\\src\\shared\\components\\ViewMode\\Views\\ViewText",
+    "631": "\\src\\FormBuilder\\EasyAutomation\\EasyAddonWrapper R",
+    "632": "\\src\\shared\\redux\\modules\\slateAddons\\selectors E",
+    "633": "\\src\\shared\\redux\\modules\\extraSettings\\selectors",
+    "634": "\\src\\shared\\types\\entities\\EasyAutomation E",
+    "635": "\\src\\shared\\services\\BulkFormChangeService\\bulkChangeService",
+    "636": "\\src\\shared\\components\\Headline\\Headline4 E",
+    "637": "\\src\\shared\\redux\\modules\\roles\\selectors E",
+    "638": "\\src\\FormBuilder\\store\\modules\\actions E",
+    "639": "\\src\\shared\\redux\\modules\\extraSettings\\actions E",
+    "640": "\\src\\FormBuilder\\EasyAutomation\\EasyAutomationChild",
+    "641": "\\src\\FormBuilder\\EasyAutomation\\EasyAutomationChild\\EasyAutomationChild",
+    "642": "\\src\\FormBuilder\\EasyAutomation\\EasyAutomationChild\\EasyAutomationChildItem",
+    "643": "\\src\\shared\\redux\\modules\\easyAutomationChildAddOns\\actions E",
+    "644": "\\src\\FormBuilder\\EasyAutomation\\EasyAutomationChild\\EasyAutomationChildItem\\EasyAutomationChildItem",
+    "645": "\\src\\FormBuilder\\EasyAutomation\\EasyAutomationChild\\EasyAutomationChildItem R",
+    "646": "\\src\\store\\types E",
+    "647": "\\src\\shared\\utils\\layouts",
+    "648": "\\src\\shared\\types\\entities\\UserStore E",
+    "649": "\\src\\shared\\types\\FormBuilder\\components\\FilePicker",
+    "650": "\\src\\shared\\types\\entities\\SlateAddonEventType E",
+    "651": "\\src\\shared\\types\\entities\\AddOnCategoryApi",
+    "652": "\\src\\shared\\types\\entities\\AddOnVersionApi E",
+    "653": "\\src\\shared\\types\\entities\\AddOnApi E",
+    "654": "\\src\\shared\\types\\entities\\Document E",
+    "655": "\\src\\shared\\components\\Form\\controls\\ValueSwitcher\\ValueSwitcher",
+    "656": "\\src\\shared\\components\\Form\\controls\\Select\\Select",
+    "657": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectDropDown",
+    "658": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\DropDownOptionsList",
+    "659": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectHeaderGroup",
+    "660": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectAllOptionsSelector",
+    "661": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\MissingValues",
+    "662": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectItem E",
+    "663": "\\src\\shared\\hooks\\useRefWithCallback E",
+    "664": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectOptionsList",
+    "665": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectOptionListGroup",
+    "666": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectOptionListItem",
+    "667": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectFooter",
+    "668": "\\src\\FormBuilder\\Events\\withEventListener",
+    "669": "\\src\\shared\\constants\\eventsOfComponents",
+    "670": "\\src\\shared\\containers\\PlaceholderSelector",
+    "671": "\\src\\shared\\containers\\PlaceholderSelector\\PlaceholderSelector",
+    "672": "\\src\\shared\\components\\Form\\controls\\Select\\parts",
+    "673": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\AllOptionsSelector E",
+    "674": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectMenuSimpleValue",
+    "675": "\\src\\shared\\components\\Form\\FormWrappers",
+    "676": "\\src\\FormBuilder\\components\\Form\\controls\\Button\\ButtonAdapter",
+    "677": "\\src\\FormBuilder\\HOCS",
+    "678": "\\src\\FormBuilder\\ControlWrapper\\withControlWrapper E",
+    "679": "\\src\\FormBuilder\\DisabledState\\withDisabledError E",
+    "680": "\\src\\FormBuilder\\HOCS\\withHiddenFields",
+    "681": "\\src\\FormBuilder\\HOCS\\withHandleValueOfSequence",
+    "682": "\\src\\FormBuilder\\ReadOnly\\ReadOnlyContext\\withReadOnlyContext E",
+    "683": "\\src\\FormBuilder\\HOCS\\withSavedValues",
+    "684": "\\src\\FormBuilder\\store\\modules\\savedValues\\selectors",
+    "685": "\\src\\FormBuilder\\HOCS\\withDefaultValue E",
+    "686": "\\src\\FormBuilder\\HOCS\\withContactGroups",
+    "687": "\\src\\FormBuilder\\store\\modules\\contactGroups\\selectors",
+    "688": "\\src\\FormBuilder\\store\\modules\\contactGroups\\actions",
+    "689": "\\src\\FormBuilder\\HOCS\\withDateTimeBeforeAfterValidation",
+    "690": "\\src\\shared\\types\\FormBuilder\\components\\DateTime",
+    "691": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\Input",
+    "692": "\\src\\FormBuilder\\DisabledState\\DisabledStateContext\\withDisabledContext",
+    "693": "\\src\\FormBuilder\\Fields\\components\\Choice\\withCommonChoiceFunctional",
+    "694": "\\src\\shared\\components\\Form\\controls\\WeekDayPicker\\Picker",
+    "695": "\\src\\shared\\components\\Form\\controls\\WeekDayPicker\\Picker\\Picker",
+    "696": "\\src\\shared\\components\\Form\\controls\\WeekDayPicker\\Picker\\PickerInner",
+    "697": "\\src\\shared\\components\\Form\\controls\\WeekDayPicker\\Picker\\PickerInput",
+    "698": "\\src\\shared\\components\\Form\\controls\\WeekDayPicker\\Picker\\PickerList",
+    "699": "\\src\\shared\\components\\Form\\controls\\WeekDayPicker\\Picker\\PickerListItem",
+    "700": "\\src\\shared\\components\\Form\\controls\\WeekDayPicker\\Picker\\PickerText",
+    "701": "\\src\\shared\\DataPlaceholders\\DataPlaceholders",
+    "702": "\\src\\shared\\components\\SingleDatePicker\\CalendarFooter",
+    "703": "\\src\\shared\\components\\TagItemWithTooltip",
+    "704": "\\src\\shared\\types\\FormBuilder\\placeholders",
+    "705": "\\src\\shared\\utils\\placeholdersFilters\\types",
+    "706": "\\src\\shared\\components\\MultiSwitcher",
+    "707": "\\src\\shared\\components\\MultiSwitcher\\MultiSwitcher",
+    "708": "\\src\\shared\\components\\MultiSwitcher\\MultiSwitcherItem",
+    "709": "\\src\\shared\\components\\MultiSwitcher\\MultiSwitcherShape",
+    "710": "\\src\\shared\\components\\MultiSwitcher\\MultiSwitcherText",
+    "711": "\\src\\shared\\utils\\finalFormDecorators\\utils",
+    "712": "\\src\\shared\\components\\FieldDropDown\\FieldDropDown",
+    "713": "\\src\\shared\\components\\FieldDropDown\\FieldDropDownContent",
+    "714": "\\src\\shared\\components\\FieldDropDown\\FieldDropDownOptionList",
+    "715": "\\src\\shared\\components\\FieldDropDown\\FieldDropDown R",
+    "716": "\\src\\shared\\redux\\modules\\loader\\selectors",
+    "717": "\\src\\shared\\redux\\modules\\loader\\reducer",
+    "718": "\\src\\shared\\redux\\modules\\common\\types",
+    "719": "\\src\\shared\\utils\\store",
+    "720": "\\src\\shared\\types\\entities\\PaginationStore E",
+    "721": "\\src\\shared\\utils\\defaultValues",
+    "722": "\\src\\shared\\redux\\utils",
+    "723": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\PhoneInput",
+    "724": "\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWithPlaceholders",
+    "725": "\\src\\shared\\components\\FieldValue\\FieldValueButtonAdd",
+    "726": "\\src\\shared\\components\\FieldValue\\FieldValueButton",
+    "727": "\\src\\shared\\components\\FieldValue\\FieldValueButtonBody",
+    "728": "\\src\\shared\\components\\FieldValue\\FieldValueButtonText",
+    "729": "\\src\\shared\\utils\\status",
+    "730": "\\src\\shared\\types\\FormBuilder\\Layout",
+    "731": "\\src\\shared\\types\\entities\\FlowDiagramConfig",
+    "732": "\\src\\shared\\redux\\modules\\slateAddons\\actions",
+    "733": "\\src\\shared\\constants\\actions",
+    "734": "\\src\\shared\\utils\\redirect",
+    "735": "\\src\\shared\\constants\\paths",
+    "736": "\\src\\shared\\redux\\modules\\addOnCategories\\selectors E",
+    "737": "\\src\\logger",
+    "738": "\\src\\shared\\constants\\metricEvents",
+    "739": "\\src\\metrics\\trackEvents",
+    "740": "\\src\\shared\\redux\\modules\\easyAutomationAddOns\\selectors",
+    "741": "\\src\\shared\\redux\\modules\\addOnCategories\\types",
+    "742": "\\src\\shared\\types\\entities\\SlateAddOnApi",
+    "743": "\\src\\shared\\constants\\addOnSources",
+    "744": "\\src\\FormBuilder\\EasyAutomation\\index",
+    "745": "\\src\\FormBuilder\\Events\\EventContext\\EventContext",
+    "746": "\\src\\shared\\redux\\modules\\flowConfigs\\selectors",
+    "747": "\\src\\shared\\constants\\documents",
+    "748": "\\src\\shared\\constants\\uploadingStatuses",
+    "749": "\\src\\shared\\utils\\createOptionMapper",
+    "750": "\\src\\shared\\constants\\flowRevisionStatuses",
+    "751": "\\src\\shared\\constants\\flowRevisionEditStatus",
+    "752": "\\src\\FormBuilder\\components\\Conditions",
+    "753": "\\src\\FormBuilder\\Fields\\components\\FieldsMapping\\FieldSelector",
+    "754": "\\src\\FormBuilder\\components\\Form\\ConditionListArrow",
+    "755": "\\src\\shared\\components\\SlConditionList",
+    "756": "\\src\\shared\\components\\SlConditionList\\SlConditionList E",
+    "757": "\\src\\shared\\components\\SlConditionList\\SlConditionListAction E",
+    "758": "\\src\\shared\\components\\SlConditionList\\SlConditionListActionBtn",
+    "759": "\\src\\shared\\components\\SlConditionList\\SlConditionListColumn E",
+    "760": "\\src\\shared\\components\\SlConditionList\\SlConditionListControl",
+    "761": "\\src\\shared\\components\\SlConditionList\\SlConditionListIcon",
+    "762": "\\src\\shared\\components\\SlConditionList\\SlConditionListInnerList",
+    "763": "\\src\\shared\\components\\SlConditionList\\SlConditionListInnerListItem",
+    "764": "\\src\\shared\\components\\SlConditionList\\SlConditionListInput",
+    "765": "\\src\\shared\\components\\SlConditionList\\SlConditionListInputIcon",
+    "766": "\\src\\shared\\components\\SlConditionList\\SlConditionListItem E",
+    "767": "\\src\\shared\\components\\SlConditionList\\SlConditionListItemAction",
+    "768": "\\src\\shared\\components\\SlConditionList\\SlConditionListItemBody E",
+    "769": "\\src\\shared\\components\\SlConditionList\\SlConditionListRow",
+    "770": "\\src\\shared\\components\\SlConditionList\\SlConditionBlock",
+    "771": "\\src\\shared\\components\\SlConditionList\\SlConditionListNotification",
+    "772": "\\src\\shared\\components\\SlConditionList\\SlConditionListControlItem",
+    "773": "\\src\\FormBuilder\\Fields\\FieldContext\\FieldContext",
+    "774": "\\src\\FormBuilder\\components\\Conditions\\ConditionListColumn",
+    "775": "\\src\\shared\\components\\Loader",
+    "776": "\\src\\shared\\components\\Loader\\LoaderView",
+    "777": "\\src\\shared\\PerformanceService\\PerformanceService",
+    "778": "\\src\\shared\\PerformanceService\\metrics",
+    "779": "\\src\\shared\\PerformanceService\\StatisticScheduler",
+    "780": "\\src\\shared\\PerformanceService\\Scheduler",
+    "781": "\\src\\shared\\PerformanceService\\PerformanceService R",
+    "782": "\\src\\FormBuilder\\store\\modules\\addOnResources\\actions",
+    "783": "\\src\\shared\\api\\addOnResources E",
+    "784": "\\src\\shared\\utils\\errorHandlers E",
+    "785": "\\src\\FormBuilder\\constants\\actionTypes",
+    "786": "\\src\\shared\\utils\\actionTypes",
+    "787": "\\src\\shared\\types\\entities\\FieldsSettingsPayload",
+    "788": "\\src\\FormBuilder\\store\\modules\\savedValues\\actions",
+    "789": "\\src\\shared\\utils\\fileToBase64",
+    "790": "\\src\\shared\\components\\Panel",
+    "791": "\\src\\shared\\components\\Panel\\PanelWrap",
+    "792": "\\src\\shared\\components\\Panel\\PanelInner",
+    "793": "\\src\\shared\\components\\Panel\\PanelSwitcher",
+    "794": "\\src\\shared\\components\\Panel\\PanelPreview",
+    "795": "\\src\\shared\\components\\Panel\\PanelDetails",
+    "796": "\\src\\shared\\components\\Panel\\PanelTitle",
+    "797": "\\src\\shared\\components\\Panel\\PanelSubtitle",
+    "798": "\\src\\shared\\components\\Panel\\PanelInfo",
+    "799": "\\src\\shared\\components\\Panel\\PanelIcon",
+    "800": "\\src\\shared\\components\\Thumb",
+    "801": "\\src\\shared\\components\\Panel\\PanelInfoBadge E",
+    "802": "\\src\\shared\\components\\Panel\\PanelBadge",
+    "803": "\\src\\shared\\components\\Panel\\PanelInfoText",
+    "804": "\\src\\shared\\components\\Panel\\PanelActions",
+    "805": "\\src\\shared\\components\\Panel\\PanelActionsButton",
+    "806": "\\src\\shared\\components\\Panel\\PanelEmail",
+    "807": "\\src\\shared\\components\\Panel\\PanelShared",
+    "808": "\\src\\shared\\components\\Panel\\PanelSharedText",
+    "809": "\\src\\shared\\components\\Panel\\PanelCheckbox",
+    "810": "\\src\\shared\\components\\Panel\\PanelTitleText",
+    "811": "\\src\\shared\\components\\Panel\\PanelIconWrap",
+    "812": "\\src\\shared\\redux\\modules\\attachments\\actions",
+    "813": "\\src\\FormBuilder\\Fields\\components\\Tags\\TagsInput",
+    "814": "\\src\\shared\\services\\BulkFormChangeService\\BulkChangeServiceContext",
+    "815": "\\src\\FormBuilder\\constants\\iconByResourceType",
+    "816": "\\src\\FormBuilder\\Fields\\components\\Matching\\DropDownSelector",
+    "817": "\\src\\FormBuilder\\Fields\\components\\Matching\\ConditionListDropDown",
+    "818": "\\src\\FormBuilder\\Fields\\components\\Matching\\SeparatedDropDowns",
+    "819": "\\src\\FormBuilder\\Fields\\components\\Matching\\SeparatedDropdownWrap",
+    "820": "\\src\\FormBuilder\\Fields\\FieldContext\\AddToFieldContext",
+    "821": "\\src\\FormBuilder\\ReadOnly\\ReadOnlyContext\\ReadOnlyProvider",
+    "822": "\\src\\shared\\components\\SettingPanel\\SettingPanelHint",
+    "823": "\\src\\shared\\components\\SettingPanel\\SettingPanelHintIcon",
+    "824": "\\src\\shared\\components\\SettingPanel\\SettingPanelHintText",
+    "825": "\\src\\shared\\components\\SettingPanel\\SettingPanelHintAction",
+    "826": "\\src\\shared\\types\\entities\\FlowAdminStore",
+    "827": "\\src\\shared\\components\\Option",
+    "828": "\\src\\shared\\components\\Option\\OptionListHeader E",
+    "829": "\\src\\shared\\components\\Option\\OptionsListItemLoader",
+    "830": "\\src\\shared\\components\\Option\\OptionListHeaderTitle E",
+    "831": "\\src\\shared\\components\\Option\\OptionListHeaderAction E",
+    "832": "\\src\\shared\\components\\Option\\OptionListSearchWrapper",
+    "833": "\\src\\shared\\components\\SearchInput\\SearchInputWrappers",
+    "834": "\\src\\shared\\components\\Option\\OptionListHeaderWithActions",
+    "835": "\\src\\shared\\components\\Option\\OptionItem E",
+    "836": "\\src\\shared\\components\\Option\\GroupOption",
+    "837": "\\src\\shared\\components\\Option\\OptionListItemClose",
+    "838": "\\src\\FormBuilder\\store\\modules\\addOnResources\\selectors",
+    "839": "\\src\\shared\\utils\\regex",
+    "840": "\\src\\shared\\types\\entities\\ServiceStore",
+    "841": "\\src\\shared\\types\\entities\\ServiceApi",
+    "842": "\\src\\shared\\redux\\modules\\loader\\actions",
+    "843": "\\src\\shared\\api",
+    "844": "\\src\\shared\\api\\getDownloadLink",
+    "845": "\\src\\shared\\api\\getDocumentsWithDictionary",
+    "846": "\\src\\shared\\api\\getFlowWithPermissionsById",
+    "847": "\\src\\shared\\api\\getFlows",
+    "848": "\\src\\shared\\utils\\api\\pagination",
+    "849": "\\src\\shared\\api\\getOrganizationAddOn",
+    "850": "\\src\\shared\\api\\getOrganizationAddOns",
+    "851": "\\src\\shared\\api\\getAddOns",
+    "852": "\\src\\shared\\api\\installAddOnToOrganization",
+    "853": "\\src\\shared\\api\\services",
+    "854": "\\src\\shared\\types\\entities\\ServiceApi E",
+    "855": "\\src\\shared\\types\\entities\\Meta\\BaseMeta",
+    "856": "\\src\\shared\\api\\getOrganizationUsers",
+    "857": "\\src\\shared\\types\\entities\\SortByName",
+    "858": "\\src\\shared\\api\\getAddOnIntegration",
+    "859": "\\src\\shared\\api\\slateAddons",
+    "860": "\\src\\shared\\constants\\addOnsListFilter",
+    "861": "\\src\\shared\\api\\slateAddOnLogs",
+    "862": "\\src\\shared\\types\\api\\JSONApiReaderResult",
+    "863": "\\src\\shared\\types\\api\\QueryParams",
+    "864": "\\src\\shared\\types\\entities\\PacketApi E",
+    "865": "\\src\\shared\\types\\entities\\PacketRevisionApi",
+    "866": "\\src\\shared\\types\\entities\\SlateAddOnLog\\SlateAddOnLog E",
+    "867": "\\src\\shared\\types\\entities\\SlateAddOnLog\\SlateAddOnLogsSearchParams",
+    "868": "\\src\\shared\\types\\entities\\SlateAddOnLog\\SlateAddOnLogStore E",
+    "869": "\\src\\shared\\utils\\slateAddonsLogs",
+    "870": "\\src\\shared\\api\\deleteAddOnIntegration",
+    "871": "\\src\\shared\\api\\slateAddonIntegration",
+    "872": "\\src\\shared\\utils\\api\\processAbortedRequest",
+    "873": "\\src\\shared\\types\\utils\\FetchError",
+    "874": "\\src\\shared\\api\\getContactGroupsList",
+    "875": "\\src\\shared\\api\\favoriteAddOns",
+    "876": "\\src\\shared\\redux\\modules\\common\\actions",
+    "877": "\\src\\shared\\api\\serviceAccounts",
+    "878": "\\src\\shared\\types\\entities\\ServiceAccountStore",
+    "879": "\\src\\shared\\types\\entities\\ServiceAccountApi",
+    "880": "\\src\\shared\\utils\\api\\processParams",
+    "881": "\\src\\shared\\types\\utils\\QueryParser",
+    "882": "\\src\\shared\\redux\\modules\\user\\selectors",
+    "883": "\\src\\shared\\constants\\permissionCodes",
+    "884": "\\src\\shared\\redux\\modules\\flowAdmins\\reducers",
+    "885": "\\src\\shared\\types\\utils\\ByIdItem",
+    "886": "\\src\\shared\\types\\entities\\UserApi",
+    "887": "\\src\\FormBuilder\\components\\Form\\controls\\DoubleDecker\\DoubleDecker",
+    "888": "\\src\\FormBuilder\\components\\Form\\controls\\DoubleDecker\\DoubleDeckerItem",
+    "889": "\\src\\shared\\types\\FormBuilder\\components\\NotificationItem E",
+    "890": "\\src\\FormBuilder\\components\\Form\\controls\\DoubleDecker\\DoubleDeckerItemInner",
+    "891": "\\src\\shared\\components\\DoubleDecker E",
+    "892": "\\src\\FormBuilder\\components\\Form\\controls\\DoubleDecker\\DoubleDeckerControl",
+    "893": "\\src\\shared\\utils\\placeholdersFilters\\types E",
+    "894": "\\src\\shared\\components\\EmailPreviewButton",
+    "895": "\\src\\FormBuilder\\Fields\\components\\Sequence\\SequenceItem",
+    "896": "\\src\\FormBuilder\\Fields\\components\\Sequence\\SequenceItem\\SequenceItem",
+    "897": "\\src\\FormBuilder\\Fields\\components\\Sequence\\SequenceModalButtonField",
+    "898": "\\src\\FormBuilder\\components\\AttachmentList",
+    "899": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeaderDragWrap",
+    "900": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeaderDragIcon",
+    "901": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeaderIcon",
+    "902": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeaderDetails",
+    "903": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeaderTitle",
+    "904": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeaderDescription",
+    "905": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeaderActions",
+    "906": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeaderSettings",
+    "907": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListRoles",
+    "908": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeader",
+    "909": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListRolesTagsInput",
+    "910": "\\src\\FormBuilder\\components\\AttachmentList\\AttachmentListHeaderInfoBox",
+    "911": "\\src\\FormBuilder\\DisabledState\\DisabledStateContext\\DisabledStateProvider",
+    "912": "\\src\\FormBuilder\\DisabledState\\disabledState",
+    "913": "\\src\\FormBuilder\\components\\Conditions\\RemoveButton",
+    "914": "\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\viewMode",
+    "915": "\\src\\shared\\components\\SearchInput\\parts",
+    "916": "\\src\\shared\\components\\SearchInput\\parts\\SearchInputSearch",
+    "917": "\\src\\shared\\components\\SearchInput\\parts\\SearchInputInner",
+    "918": "\\src\\shared\\components\\SearchInput\\parts\\SearchInputIcon",
+    "919": "\\src\\shared\\components\\SearchInput\\parts\\SearchInputField",
+    "920": "\\src\\FormBuilder\\Resources\\withFormBuilderContext",
+    "921": "\\src\\FormBuilder\\Resources\\withResources",
+    "922": "\\src\\FormBuilder\\Resources\\withRequiredResources",
+    "923": "\\src\\FormBuilder\\Resources\\withDataSources",
+    "924": "\\src\\FormBuilder\\Resources\\Mutators",
+    "925": "\\src\\FormBuilder\\Resources\\Mutator",
+    "926": "\\src\\FormBuilder\\store\\modules\\dataSource\\selectors",
+    "927": "\\src\\FormBuilder\\Fields\\components\\Mapping\\parts",
+    "928": "\\src\\FormBuilder\\Fields\\components\\Mapping\\parts\\AddMappingGroupButton",
+    "929": "\\src\\FormBuilder\\Fields\\components\\Mapping\\parts\\ArrowIcon",
+    "930": "\\src\\FormBuilder\\Fields\\components\\Mapping\\parts\\AddMappingButton",
+    "931": "\\src\\FormBuilder\\Fields\\components\\Mapping\\parts\\ToggleGroupButton",
+    "932": "\\src\\FormBuilder\\Fields\\components\\Mapping\\parts\\GroupControl",
+    "933": "\\src\\FormBuilder\\Fields\\components\\Mapping\\parts\\MappingField E",
+    "934": "\\src\\FormBuilder\\Fields\\components\\Mapping\\helpers\\helpers",
+    "935": "\\src\\shared\\components\\Confirmation",
+    "936": "\\src\\shared\\components\\Confirmation\\Confirmation",
+    "937": "\\src\\shared\\components\\Confirmation\\ConfirmationActions",
+    "938": "\\src\\shared\\components\\Confirmation\\ConfirmationDetails",
+    "939": "\\src\\shared\\components\\Confirmation\\ConfirmationInner",
+    "940": "\\src\\shared\\components\\Confirmation\\ConfirmationTitle",
+    "941": "\\src\\shared\\components\\Confirmation\\ConfirmationSubtitle",
+    "942": "\\src\\shared\\components\\Headline",
+    "943": "\\src\\shared\\components\\Headline\\Headline5",
+    "944": "\\src\\FormBuilder\\Fields\\components\\Tree\\TreeContext",
+    "945": "\\src\\shared\\utils\\outcomingDataConverter",
+    "946": "\\src\\shared\\constants\\sequence",
+    "947": "\\src\\FormBuilder\\components\\SlDocList",
+    "948": "\\src\\FormBuilder\\components\\SlDocList\\SlDocList",
+    "949": "\\src\\FormBuilder\\components\\SlDocList\\SlDocListItem",
+    "950": "\\src\\FormBuilder\\components\\SlDocList\\SlDocListActions",
+    "951": "\\src\\FormBuilder\\components\\SlDocList\\SlDocListPreview",
+    "952": "\\src\\FormBuilder\\components\\SlDocList\\SlDocPreview",
+    "953": "\\src\\FormBuilder\\components\\SlDocList\\SlDocPreviewIcon",
+    "954": "\\src\\FormBuilder\\components\\SlDocList\\SlDocListDetails",
+    "955": "\\src\\FormBuilder\\components\\SlDocList\\SlDocListTitle",
+    "956": "\\src\\FormBuilder\\components\\SlDocList\\SlDocListText",
+    "957": "\\src\\FormBuilder\\components\\SlDocList\\SlDocListSubtTitle",
+    "958": "\\src\\shared\\utils\\filePicker",
+    "959": "\\src\\shared\\utils\\incomingDataConverter",
+    "960": "\\src\\FormBuilder\\components\\Conditions\\ConditionList",
+    "961": "\\src\\FormBuilder\\components\\Conditions\\ConditionListItem",
+    "962": "\\src\\shared\\components\\SlConditionList\\index",
+    "963": "\\src\\FormBuilder\\components\\SlPanel",
+    "964": "\\src\\FormBuilder\\components\\SlPanel\\SlPanel",
+    "965": "\\src\\FormBuilder\\components\\SlPanel\\SlPanelCheckbox",
+    "966": "\\src\\FormBuilder\\components\\SlPanel\\SlPanelIcon",
+    "967": "\\src\\FormBuilder\\components\\SlPanel\\SlPanelInfo",
+    "968": "\\src\\shared\\components\\InfoText",
+    "969": "\\src\\shared\\redux\\modules\\placeholders\\selectors",
+    "970": "\\src\\shared\\utils\\placeholdersFilters\\placeholdersFilter",
+    "971": "\\src\\FormBuilder\\Fields\\FieldContext",
+    "972": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectMenu",
+    "973": "\\src\\shared\\components\\SearchInput\\SearchInputCore",
+    "974": "\\src\\shared\\components\\SearchInput\\parts\\SearchInputButton",
+    "975": "\\src\\shared\\components\\SearchInput\\SearchInputWrappers E",
+    "976": "\\src\\shared\\components\\InfiniteScroll",
+    "977": "\\src\\shared\\types\\fields\\list\\RemoveBlockButton",
+    "978": "\\src\\shared\\types\\fields\\dto\\RemoveBlockButtonDTO",
+    "979": "\\src\\shared\\utils\\dependeciesFactories",
+    "980": "\\src\\shared\\api\\placeholders",
+    "981": "\\src\\shared\\utils\\fieldMappers",
+    "982": "\\src\\shared\\types\\FormBuilder\\components\\DataSource",
+    "983": "\\src\\shared\\utils\\resourceFieldsErrorHandler",
+    "984": "\\src\\shared\\utils\\resourceFieldsErrorMessageBuilder",
+    "985": "\\src\\shared\\services\\UIMessageStoreService",
+    "986": "\\src\\FormBuilder\\store\\modules\\dataSource\\reducer",
+    "987": "\\src\\shared\\types\\entities\\SlateAddonStore",
+    "988": "\\src\\shared\\components\\ViewMode\\Views\\ViewTags",
+    "989": "\\src\\shared\\redux\\modules\\slateAddons\\selectors",
+    "990": "\\src\\shared\\constants\\addOnsCategories",
+    "991": "\\src\\shared\\types\\entities\\EasyAutomation",
+    "992": "\\src\\shared\\components\\Headline\\Headline4",
+    "993": "\\src\\shared\\redux\\modules\\roles\\selectors",
+    "994": "\\src\\shared\\redux\\modules\\initialValues\\actions",
+    "995": "\\src\\FormBuilder\\store\\modules\\actions",
+    "996": "\\src\\shared\\redux\\modules\\extraSettings\\types",
+    "997": "\\src\\FormBuilder\\store\\modules\\savedValues\\types",
+    "998": "\\src\\shared\\redux\\modules\\extraSettings\\actions",
+    "999": "\\src\\shared\\redux\\modules\\easyAutomationChildAddOns\\actions",
+    "1000": "\\src\\store\\types",
+    "1001": "\\src\\reducers",
+    "1002": "\\src\\shared\\redux\\modules\\addOnCategories\\reducer",
+    "1003": "\\src\\shared\\utils\\store E",
+    "1004": "\\src\\shared\\redux\\modules\\slateAddons\\reducer",
+    "1005": "\\src\\reducers\\organizationUsers",
+    "1006": "\\src\\reducers\\packects",
+    "1007": "\\src\\reducers\\failedProcesses",
+    "1008": "\\src\\reducers\\revisions",
+    "1009": "\\src\\shared\\redux\\modules\\favoriteAddons\\reducer",
+    "1010": "\\src\\shared\\redux\\modules\\roles\\reducer",
+    "1011": "\\src\\shared\\redux\\modules\\extraSettings\\reducer",
+    "1012": "\\src\\shared\\redux\\modules\\flowConfigs\\reducer",
+    "1013": "\\src\\shared\\redux\\modules\\placeholders\\reducer",
+    "1014": "\\src\\shared\\redux\\modules\\connections\\reducer",
+    "1015": "\\src\\shared\\redux\\modules\\initialValues\\reducer",
+    "1016": "\\src\\shared\\redux\\modules\\attachments\\reducer",
+    "1017": "\\src\\shared\\redux\\modules\\flowRevisions\\reducer",
+    "1018": "\\src\\shared\\types\\entities\\FlowRevision\\FlowRevisionApi",
+    "1019": "\\src\\shared\\redux\\modules\\easyAutomationAddOns\\reducer",
+    "1020": "\\src\\shared\\redux\\modules\\easyAutomationChildAddOns\\reducer",
+    "1021": "\\src\\FormBuilder\\store\\modules\\addOnResources\\reducer",
+    "1022": "\\src\\FormBuilder\\store\\modules\\savedValues\\reducer",
+    "1023": "\\src\\FormBuilder\\store\\modules\\addOnResources\\types",
+    "1024": "\\src\\FormBuilder\\store\\modules\\contactGroups\\reducer",
+    "1025": "\\src\\shared\\types\\entities\\UserStore",
+    "1026": "\\src\\shared\\types\\entities\\SlateAddonEventType",
+    "1027": "\\src\\shared\\types\\entities\\AddOnVersionApi",
+    "1028": "\\src\\shared\\types\\entities\\AddOnApi",
+    "1029": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\SelectItem",
+    "1030": "\\src\\shared\\components\\Form\\controls\\Select\\parts\\AllOptionsSelector",
+    "1031": "\\src\\FormBuilder\\ControlWrapper\\withControlWrapper",
+    "1032": "\\src\\FormBuilder\\ControlWrapper\\components\\ControlWrapper",
+    "1033": "\\src\\shared\\components\\ControlWrapper",
+    "1034": "\\src\\shared\\components\\ControlWrapper\\ControlWrapperHeader",
+    "1035": "\\src\\FormBuilder\\utils\\LayoutsService",
+    "1036": "\\src\\shared\\experiments\\utils",
+    "1037": "\\src\\shared\\utils\\botsInDiagram",
+    "1038": "\\src\\FormBuilder\\DisabledState\\withDisabledError",
+    "1039": "\\src\\FormBuilder\\ReadOnly\\ReadOnlyContext\\withReadOnlyContext",
+    "1040": "\\src\\shared\\types\\entities\\PaginationStore",
+    "1041": "\\src\\shared\\components\\OpenAddressBookButton",
+    "1042": "\\src\\shared\\redux\\modules\\addOnCategories\\selectors",
+    "1043": "\\src\\shared\\components\\SlConditionList\\SlConditionList",
+    "1044": "\\src\\shared\\components\\SlConditionList\\SlConditionListAction",
+    "1045": "\\src\\shared\\components\\SlConditionList\\SlConditionListColumn",
+    "1046": "\\src\\shared\\components\\SlConditionList\\SlConditionListItem",
+    "1047": "\\src\\shared\\components\\SlConditionList\\SlConditionListItemBody",
+    "1048": "\\src\\shared\\api\\addOnResources",
+    "1049": "\\src\\shared\\components\\Panel\\PanelInfoBadge",
+    "1050": "\\src\\shared\\components\\Option\\OptionListHeader",
+    "1051": "\\src\\shared\\components\\Option\\OptionListHeaderTitle",
+    "1052": "\\src\\shared\\components\\Option\\OptionListHeaderAction",
+    "1053": "\\src\\shared\\components\\Option\\OptionItem",
+    "1054": "\\src\\shared\\types\\entities\\PacketApi",
+    "1055": "\\src\\shared\\types\\entities\\SlateAddOnLog\\SlateAddOnLog",
+    "1056": "\\src\\shared\\types\\entities\\SlateAddOnLog\\SlateAddOnLogStore",
+    "1057": "\\src\\shared\\types\\FormBuilder\\components\\NotificationItem",
+    "1058": "\\src\\shared\\components\\DoubleDecker",
+    "1059": "\\src\\shared\\components\\DoubleDecker\\DoubleDeckerRow",
+    "1060": "\\src\\FormBuilder\\Fields\\components\\Mapping\\parts\\MappingField"
+  }
 }

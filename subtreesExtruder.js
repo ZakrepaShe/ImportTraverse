@@ -7,16 +7,16 @@ function getHash(str) {
 const subTreesMap = {};
 const checked = {};
 
-function copySubtrees(tree, subtree = false) {
+function copySubtrees(tree) {
   const hash = getHash(tree.name);
-  if (checked[hash] && tree.children) {
+  if (checked[hash] && !subTreesMap[hash] && tree.children) {
     subTreesMap[hash] = tree;
   } else {
     checked[hash] = true;
   }
   if (tree.children) {
     tree.children.forEach((child) => {
-      copySubtrees(child, subtree);
+      copySubtrees(child);
     });
   }
 }
@@ -24,17 +24,23 @@ function copySubtrees(tree, subtree = false) {
 
 const exported = {};
 
-function cleanSubtrees(tree, skipname = '') {
+function cleanSubtrees(tree, skipname = '', contextObj, contextIndex) {
   const hash = getHash(tree.name);
   if (subTreesMap[hash] && hash !== getHash(skipname)) {
-    exported[hash] = JSON.parse(JSON.stringify(subTreesMap[hash]));
-    console.log('Exported', tree.name);
-    tree.name = `${tree.name} E`;
-    tree.children = null;
+    exported[hash] = subTreesMap[hash];
+    if(contextObj) {
+      contextObj[contextIndex] = {
+        name: `${tree.name} E`,
+      }
+    } else {
+      tree.name = `${tree.name} E`;
+      delete tree.children;
+    }
+    // console.log('Exported', tree.name);
   } else {
     if (tree.children) {
-      tree.children.forEach((child) => {
-        cleanSubtrees(child);
+      tree.children.forEach((child, index) => {
+        cleanSubtrees(child, '', tree.children, index);
       });
     }
   }
@@ -43,9 +49,12 @@ function cleanSubtrees(tree, skipname = '') {
 // some chunks are inside same subtrees and marked as subtree itself as 'subtreel1c2', but they dont
 // must be excluded from exporting
 export function cleanUnexportedChunks() {
-  Object.keys(subTreesMap).forEach(key => {
+  Object.keys(checked).forEach(key => {
     if(!exported[key]) {
-      delete subTreesMap[key]
+      delete checked[key];
+      if(subTreesMap[key]) {
+        delete subTreesMap[key];
+      }
     }
   })
 }
@@ -53,11 +62,36 @@ export function cleanUnexportedChunks() {
 export function extrudeSubtrees(tree) {
   copySubtrees(tree);
   cleanSubtrees(tree);
-  cleanUnexportedChunks()
-  tree.subTrees = Object.values(exported).map(val => {
+  cleanUnexportedChunks();
+  tree.subTrees = [];
+
+  for (let i = 0; i < Object.values(exported).length; i++) {
+    const val = Object.values(exported)[i]
+    copySubtrees(val);
     cleanSubtrees(val, val.name);
-    return val
-  });
+    cleanUnexportedChunks();
+    tree.subTrees.push(val)
+  }
+}
+
+let chains = 0
+export function cleanupChains(tree) {
+  chains++
+  delete tree.chain
+  if (tree.children) {
+    tree.children.forEach((child) => {
+      cleanupChains(child);
+    });
+  }
+  if (tree.subTrees) {
+    tree.subTrees.forEach((child) => {
+      cleanupChains(child);
+    });
+  }
+}
+
+export function getCleanedChainsNumber() {
+  console.log(`Cleaned chains: ${chains}`)
 }
 
 const sample = {
