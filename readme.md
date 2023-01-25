@@ -1,18 +1,9 @@
-#Imports tree analyzer & visualizer
-Tree visualization starts from `index.html` with WebStorm internal static server
+#Imports tree analyzer 
+Collect used npm packages across all app using babel traverse like webpack.
 
-Data sample for `creator-addons-app\src\shared\components\Form\controls\InputAdapter\InputWrapper.js` included for demo vizualization
+Before running, install this package deps with `yarn install`, tune options in `config.json`
 
-To make new sample use `importsCollector.js`.
+###Options `config.json`
+`filePath` - absolute file path to app entrypoint file
 
-Before creating first sample, install deps with `yarn install && node importsCollector.js`
-
-###Legend to `importsCollector.js`
-`filePath` - absolute file path to target file
-
-`filterPaths` - absolute file paths, used to skip analyzer deeper search and have shorter tree
-
-
-`Root` - absolute path to app root
-
-`relativeOnly` - includes only relative imports (no node_modules packages)
+Execute `node importsCollector.js`, as result `libs.js` will be created in this app root folder
