@@ -12,20 +12,44 @@ import { flattenTree } from './flattenTree.js';
 import archiver from 'archiver';
 import { Readable } from 'stream';
 import ee from 'streamee';
-import { createRequire } from "module";
+
+import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
-const { filePath } = require('./config.json')
+const { filePath, Root } = require('./config.json');
+
+import replace from 'replace-in-file';
+const replaced = {};
+const options = {
+  files: Root + '/src/**',
+  from: /const[^;]*import\((.*)\)\);/gm,
+  to: (...args) => {
+    const name = args.pop();
+    const match = args[0].match(/const (\w+) [^;]*import\((.*)\)\);/m);
+
+    const replacement = `import ${match[1]} from ${match[2]};`;
+
+    if (!replaced[name]) {
+      replaced[name] = [];
+    }
+    replaced[name].push({origin: args[0], replaced: replacement});
+
+    return replacement;
+  },
+};
+replace.sync(options);
+console.log('Replaced lazy import()');
+
 
 // const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\exportable\\components.ts'; //too much memory, use flattenResult
 // const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\components\\Form\\controls\\InputAdapter\\InputWrapper.js'; // Recursive!
 // const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\shared\\utils\\validation\\conditionValidation.spec.ts'; // Enormous size!
 // const filePath = 'D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app\\src\\utils\\slateAddOnLogs.spec.js';
-const Root = ''; //"D:\\Work\\Airslate-Platform\\front-platform\\packages\\creator-addons-app"
 const modulesRoot = Root + '\\node_modules';
 
 const relativeOnly = true;
 const collectAbsoluteImports = true;
 const resolveRecursion = true;
+const logRecursion = false;
 const extrudeReusedSubtrees = true;
 const flattenResult = true;
 const maxDeep = 20000;
@@ -57,42 +81,18 @@ function checkAllowedFiles(filePath) {
   return !filePath.match(/\.scss$/);
 }
 
-function indexFixer(pathToItem) {
+function indexFixer(pathToItem, debug = false) {
   try {
+    debug && console.log('Try stat file', pathToItem);
     const stat = fs.statSync(pathToItem);
 
     if (stat.isFile()) {
       logFilePaths && console.log('filePath', pathToItem);
       return pathToItem;
-    } else if (stat.isDirectory()) {
-      try {
-        const pathWithIndexJs = pathToItem + '\\index.js';
-
-        fs.statSync(pathWithIndexJs);
-        logFilePaths && console.log('filePath IndexJs', pathWithIndexJs);
-
-        return pathWithIndexJs;
-      } catch (e) {
-        try {
-          const pathWithIndexTS = pathToItem + '\\index.ts';
-
-          fs.statSync(pathWithIndexTS);
-          logFilePaths && console.log('filePath IndexTS', pathWithIndexTS);
-
-          return pathWithIndexTS;
-        } catch (e) {
-          const pathWithIndexTSX = pathToItem + '\\index.tsx';
-          try {
-            fs.statSync(pathWithIndexTSX);
-            logFilePaths && console.log('filePath IndexTS', pathWithIndexTSX);
-
-            return pathWithIndexTSX;
-          } catch (e) {
-            return '';
-          }
-        }
-      }
+    } else {
+      throw new Error('Path not to file')
     }
+
   } catch (e) {
     try {
       const pathWithJs = pathToItem + '.js';
@@ -123,7 +123,46 @@ function indexFixer(pathToItem) {
             return pathWithTsx;
           }
         } catch (e) {
-          return '';
+          try {
+            debug && console.log('Try stat dir', pathToItem);
+            const stat = fs.statSync(pathToItem);
+
+            if (stat.isDirectory()) {
+              try {
+                const pathWithIndexJs = pathToItem + '\\index.js';
+
+                debug && console.log('Try index.js', pathWithIndexJs);
+                fs.statSync(pathWithIndexJs);
+                logFilePaths && console.log('filePath IndexJs', pathWithIndexJs);
+
+                return pathWithIndexJs;
+              } catch (e) {
+                try {
+                  const pathWithIndexTS = pathToItem + '\\index.ts';
+
+                  debug && console.log('Try index.ts', pathWithIndexTS);
+                  fs.statSync(pathWithIndexTS);
+                  logFilePaths && console.log('filePath IndexTS', pathWithIndexTS);
+
+                  return pathWithIndexTS;
+                } catch (e) {
+                  try {
+                    const pathWithIndexTSX = pathToItem + '\\index.tsx';
+
+                    debug && console.log('Try index.tsx', pathWithIndexTSX);
+                    fs.statSync(pathWithIndexTSX);
+                    logFilePaths && console.log('filePath IndexTS', pathWithIndexTSX);
+
+                    return pathWithIndexTSX;
+                  } catch (e) {
+                    return '';
+                  }
+                }
+              }
+            }
+          } catch (e) {
+            return '';
+          }
         }
       }
     }
@@ -190,7 +229,8 @@ function processFile(filePath, chain = []) {
   const checkedPath = indexFixer(filePath);
   if (!checkedPath) {
     const outPath = outputPathFormatter(filePath);
-    console.log(`No file at ${outPath}`);
+    const fromParent = outputPathFormatter(chain[chain.length - 1]);
+    console.log(`Cant resolve ${outPath} from ${fromParent}`);
     return {
       name: `${outPath} N`,
       chain,
@@ -199,7 +239,7 @@ function processFile(filePath, chain = []) {
 
   if (resolveRecursion && chain.some((pathInChain) => pathInChain === filePath)) {
     const outPath = outputPathFormatter(filePath);
-    console.log('filePath ' + outPath + ' Recursion!');
+    logRecursion && console.log('filePath ' + outPath + ' Recursion!');
     return {
       name: `${outPath} R`,
       chain,
@@ -217,15 +257,14 @@ function processFile(filePath, chain = []) {
   const ast = getAST(checkedPath);
 
   const children = traverseFile(ast, (importPath, importType) => {
-      if (!cachedNodes[importPath]) {
-        cachedNodes[importPath] = processFile(
-          importType === 'relative'
-            ? path.resolve(path.dirname(checkedPath), importPath)
-            : importType === 'module'
-            ? processNodeModule(path.resolve(modulesRoot, importPath))
-            : path.resolve(modulesRoot, importPath),
-          [...chain, filePath],
-        );
+      const absolutePath = importType === 'relative'
+        ? path.resolve(path.dirname(checkedPath), importPath)
+        : importType === 'module'
+          ? processNodeModule(path.resolve(modulesRoot, importPath))
+          : path.resolve(modulesRoot, importPath);
+
+      if (!cachedNodes[absolutePath]) {
+        cachedNodes[absolutePath] = processFile(absolutePath, [...chain, filePath]);
       }
       return cachedNodes[importPath];
     },
@@ -277,3 +316,13 @@ if (!collectAbsoluteImports) {
 } else {
   fs.writeFileSync('libs.js', 'export default ' + JSON.stringify(Object.keys(absoluteImports).sort((a, b) => a.localeCompare(b)), null, 2), 'utf-8');
 }
+
+Object.keys(replaced).forEach(filePath => {
+  const options = {
+    files: filePath,
+    from: replaced[filePath].map(({replaced}) => new RegExp(replaced, 'g')),
+    to: replaced[filePath].map(({origin}) => origin),
+  };
+  replace.sync(options);
+})
+console.log('Restore lazy import()');
