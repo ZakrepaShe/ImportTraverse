@@ -266,7 +266,7 @@ function processFile(filePath, chain = []) {
       if (!cachedNodes[absolutePath]) {
         cachedNodes[absolutePath] = processFile(absolutePath, [...chain, filePath]);
       }
-      return cachedNodes[importPath];
+      return cachedNodes[absolutePath];
     },
   );
 

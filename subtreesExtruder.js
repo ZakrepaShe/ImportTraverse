@@ -60,6 +60,7 @@ export function cleanUnexportedChunks() {
 }
 
 export function extrudeSubtrees(tree) {
+  console.log('Extruding reused subtrees');
   copySubtrees(tree);
   cleanSubtrees(tree);
   cleanUnexportedChunks();
