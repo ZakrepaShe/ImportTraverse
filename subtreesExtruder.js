@@ -6,9 +6,11 @@ function getHash(str) {
 
 const subTreesMap = {};
 const checked = {};
+let nodesCount = 0;
 
 function copySubtrees(tree) {
   const hash = getHash(tree.name);
+  nodesCount++
   if (checked[hash] && !subTreesMap[hash] && tree.children) {
     subTreesMap[hash] = tree;
   } else {
@@ -65,6 +67,7 @@ export function extrudeSubtrees(tree) {
   cleanSubtrees(tree);
   cleanUnexportedChunks();
   tree.subTrees = [];
+  console.log(`Nodes processed: ${nodesCount}`)
 
   for (let i = 0; i < Object.values(exported).length; i++) {
     const val = Object.values(exported)[i]

@@ -207,11 +207,18 @@ function traverseFile(ast, callback) {
 
 function processNodeModule(modulePath) {
   const packagePath = modulePath + '\\package.json';
-  const stat = fs.statSync(packagePath);
-  if (stat.isFile()) {
-    const packageData = fs.readFileSync(packagePath, 'utf-8');
-    const parsedPackage = JSON.parse(packageData);
-    return path.resolve(modulePath, parsedPackage.module || parsedPackage.main);
+  try {
+    const stat = fs.statSync(packagePath);
+    if (stat.isFile()) {
+      const packageData = fs.readFileSync(packagePath, 'utf-8');
+      const parsedPackage = JSON.parse(packageData);
+
+      return path.resolve(modulePath, parsedPackage.module || parsedPackage.main);
+    }
+  } catch (e) {
+    console.log(`No package at ${modulePath}`);
+
+    return '';
   }
 }
 
@@ -263,10 +270,12 @@ function processFile(filePath, chain = []) {
           ? processNodeModule(path.resolve(modulesRoot, importPath))
           : path.resolve(modulesRoot, importPath);
 
-      if (!cachedNodes[absolutePath]) {
-        cachedNodes[absolutePath] = processFile(absolutePath, [...chain, filePath]);
+      if (absolutePath) {
+        if (!cachedNodes[absolutePath]) {
+          cachedNodes[absolutePath] = processFile(absolutePath, [...chain, filePath]);
+        }
+        return cachedNodes[absolutePath];
       }
-      return cachedNodes[absolutePath];
     },
   );
 
